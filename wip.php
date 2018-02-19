@@ -63,9 +63,9 @@
 
             <nav>
                 <ul>
-                    <li><a href="work.php" id="navExhibit">See our<br />Exhibit</a></li>
-                    <li><a href="about.php" id="navInfo">Get more<br />Information</a></li>
-                    <li><a href="resume.php" id="navTeam">Meet the<br />Team</a></li>
+                    <li><a href="exhibit.php" id="navExhibit">See our<br />Exhibit</a></li>
+                    <li><a href="information.php" id="navInfo">Get more<br />Information</a></li>
+                    <li><a href="team.php" id="navTeam">Meet the<br />Team</a></li>
                 </ul>
             </nav>
 
