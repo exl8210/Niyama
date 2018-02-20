@@ -19,9 +19,6 @@ $(document).ready(function() {
     */
          
     switch(pageName[0]) {
-        case '':
-            break;
-                     
         case 'exhibit':
             $('#navExhibit').addClass("current");
             break;
