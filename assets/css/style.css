@@ -8,6 +8,12 @@
     text-decoration: none;
 }
 
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
 
 /* STRUCTURE */
 body {
@@ -138,6 +144,34 @@ h3 {
     border-radius: 30px;
     border: 1px solid #232323;
     padding: 16px 24px;
-    margin: 20px;
     cursor: pointer;
+}
+
+#info-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 350px;
+    height: 360px;
+    border-radius: 10px;
+    display: inline-block;
+    border: 1px solid blue;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    margin-top: 0;
+    transition: margin-top ease 0.3s;
+}
+
+.card:hover {
+    margin-top: -20px;
+}
+
+.card span {
+    position: absolute;
+    bottom: 40px;
+    font-size: 18px;
+    outline: 1px solid green;
 }
