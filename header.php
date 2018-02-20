@@ -63,7 +63,7 @@
         <header class="offset-by-one ten columns">
             <a href="index.php"><img src="assets/media/brand/niyama-logo@2x.png" id="logo" alt="Niyama" /></a>
 
-            <nav>
+            <nav class="pre-nav">
                 <ul>
                     <li><a href="exhibit.php" id="navExhibit">See our<br />Exhibit</a></li>
                     <li><a href="stories.php" id="navStories">Read real<br />Stories</a></li>
@@ -74,4 +74,4 @@
 
         </header>
 
-        <div class="u-cf small-vert-space"></div>
+        <div class="u-cf clear"></div>

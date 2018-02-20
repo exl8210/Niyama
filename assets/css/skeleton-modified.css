@@ -147,9 +147,12 @@ hr {
 }
 
 .small-vert-space {
-    margin: 60px 0;
+    margin: 30px 0;
 }
 
+.large-vert-space {
+    margin: 60px 0;
+}
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
