@@ -25,6 +25,10 @@ $(document).ready(function() {
         case 'exhibit':
             $('#navExhibit').addClass("current");
             break;
+                      
+        case 'stories':
+            $('#navStories').addClass("current");
+            break;
                      
         case 'information':
             $('#navInfo').addClass("current");
