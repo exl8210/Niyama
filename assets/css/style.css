@@ -17,7 +17,7 @@ html {
 
 /* STRUCTURE */
 body {
-    background: #f0f0f0;
+    background: #fcfcfc;
     font-family: 'Karla', sans-serif;
     font-size: 16px;
     line-height: 22.4px;
@@ -33,6 +33,15 @@ body {
 header {
     padding: 44px 0 80px;
     display: block;
+}
+
+#yolk-quote {
+    display: flex;
+    align-items: center;
+}
+
+#yolk {
+    justify-content: center;
 }
 
 
@@ -124,6 +133,15 @@ h1 {
     font-family: "Comfortaa", sans-serif;
     font-size: 36px;
     margin-bottom: 30px;
+    line-height: 48px;
+}
+
+footer h1 {
+    font-weight: 700;
+}
+
+footer h1::first-line {
+    font-weight: 300;
 }
 
 h2 {
@@ -156,22 +174,44 @@ h3 {
     width: 350px;
     height: 360px;
     border-radius: 10px;
-    display: inline-block;
-    border: 1px solid blue;
+    border: 1px solid #5a99f6;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    position: relative;
     cursor: pointer;
     margin-top: 0;
-    transition: margin-top ease 0.3s;
+    transition: margin-top ease 0.3s, box-shadow ease 0.3s;
+    background: #fff;
+    box-shadow: none;
 }
 
 .card:hover {
     margin-top: -20px;
+    box-shadow: 0px 4px 10px rgba(90, 153, 246, .35);
+}
+
+.card .icon {
+    position: absolute;
+    max-width: 160px;
+    max-height: 160px;
+    margin-top: 70px;
 }
 
 .card span {
-    position: absolute;
-    bottom: 40px;
     font-size: 18px;
-    outline: 1px solid green;
+    align-self: flex-end;
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.social {
+    max-height: 30px;
+    margin: 0 20px 0 0;
 }

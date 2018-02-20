@@ -26,7 +26,7 @@
     <!-- styles -->
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/skeleton-modified.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300|Karla:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,700|Karla:400,400i,700,700i" rel="stylesheet">
 
     <!-- script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,113 +72,111 @@
             </nav>
 
         </header>
-        
-        <div class="u-cf"></div>
+
+        <div class="u-cf small-vert-space"></div>
 
         <!-- Yolk Quotes -->
         <div class="row" id="yolk-quote">
-            <div class="offset-by-one four columns">
+            <div class="offset-by-one four columns" id="yolk">
                 Yolk animation + refresh goes here
             </div>
-            
+
             <div class="six columns">
-                CTA buttons and quote goes here
+                <blockquote>
+                    Every time you smile at someone, it is an action of love, a gift to that person, a beautiful thing.
+                    <br />
+                    <p class="attr">Mother Teresa</p>
+                </blockquote>
+
+                 <a class="button">Share the love!</a>
             </div>
         </div>
 
         <div class="u-cf clear"></div>
-        
+
         <!-- Did you know -->
         <div class="row" id="did-you-know">
             <div class="offset-by-one four columns">
                 <h2>Did you know?</h2>
                 <p>We interact with approximately <strong>80,000 people</strong> in a lifetime, but we tend to be unaware of how impactful small positive gestures have on others.</p>
             </div>
-            
+
             <div class="u-cf small-vert-space"></div>
-            
+
             <div class="offset-by-one ten columns" id="info-cards">
-                <a class="card"><span>A Butterfly Effect</span></a>
-                <a class="card"><span>Lollipop Moments</span></a>
-                <a class="card"><span>Beautiful Interruptions</span></a>
+                <a class="card">
+                    <img class="icon" src="assets/media/icons/icon-butterfly@2x.png" />
+                    <span>A Butterfly Effect</span>
+                </a>
+                <a class="card">
+                    <img class="icon" src="assets/media/icons/icon-lollipop@2x.png" />
+                    <span>Lollipop Moments</span>
+                </a>
+                <a class="card">
+                    <img class="icon" src="assets/media/icons/icon-interruptions@2x.png" />
+                    <span>Beautiful Interruptions</span>
+                </a>
             </div>
-            
+
             <div class="u-cf small-vert-space"></div>
-            
+
             <div class="u-full-width u-centre">
                 <a class="button">More about positivity</a>
             </div>
         </div>
-        
+
         <div class="u-cf clear"></div>
-        
+
         <!-- Exhibit intro -->
         <div class="row" id="exhibit-intro">
             <div class="offset-by-one four columns">
                 <h2>We practice what we preach.</h2>
                 <p>In April 2018, a group of nine designers and developers from the Rochester Institute of Technology's New Media and Industrial Design programmes created a fun, engaging, interactive simulation that shows how <strong>small gestures have a great influence</strong>.</p>
             </div>
-            
+
             <div class="u-cf small-vert-space"></div>
-            
+
             <div class="offset-by-one ten columns">
-                promotional video - animation, or final post-Imagine RIT cut
+                <div style="width: 100%; height: 636px; border: 1px solid #232323"> promotional video - animation, or final post-Imagine RIT cut</div>
             </div>
-            
+
             <div class="u-cf small-vert-space"></div>
-            
+
             <div class="u-full-width u-centre">
                 <a class="button">More about Niyama</a>
             </div>
         </div>
-        
-        
-        
-        <div class="u-cf clear"></div>
-        
-        <h1>H1</h1>
-        <h2>H2</h2>
-        <h3>H3</h3>
-
-        <p>Body paragraph. <strong>Bold</strong>, <em>italic</em>, <u>underlined</u>.</p>
-
-        <a class="button">Fantabulous!</a>
-
-        <blockquote>
-            Every time you smile at someone, it is an action of love, a gift to that person, a beautiful thing.
-            <br />
-            <p class="attr">Mother Teresa</p>
-        </blockquote>
-
-        <hr />
-        
-        
-        <!-- columns should be the immediate child of a .row -->
-        <div class="row">
-            <div class="one column">One</div>
-            <div class="eleven columns">Eleven</div>
-        </div>
-
-        <!-- just use a number and class 'column' or 'columns' -->
-        <div class="row">
-            <div class="two columns">Two</div>
-            <div class="ten columns">Ten</div>
-        </div>
-
-        <!-- there are a few shorthand columns widths as well -->
-        <div class="row">
-            <div class="one-third column">1/3</div>
-            <div class="two-thirds column">2/3</div>
-        </div>
-        <div class="row">
-            <div class="one-half column">1/2</div>
-            <div class="one-half column">1/2</div>
-        </div>
-        
-        
-        <footer>
 
 
+        <footer class="row">
+            <div class="offset-by-five two columns">
+                <div class="u-cf small-vert-space"></div>
+                <hr />
+                <div class="u-cf small-vert-space"></div>
+            </div>
+
+            <div class="offset-by-one eight columns">
+                <h1>Negativity spreads fast.<br />
+                Help spread positivity faster.</h1> Copyright &copy; 2018. Niyama &hearts;
+            </div>
+
+            <div class="two columns">
+                <ul>
+                    <li><a href="exhibit.php">See Our Exhibit</a></li>
+                    <li><a href="information.php">Get More Information</a></li>
+                    <li><a href="team.php">Meet The Team</a></li>
+                </ul>
+
+                <br />
+
+                <a href="http://www.facebook.com/niyama2018/"><img class="social" src="assets/media/icons/icon-fb@2x.png" /></a>
+
+                <a href="http://www.instagram.com/niyama2018/"><img class="social" src="assets/media/icons/icon-ig@2x.png" /></a>
+
+                <a href="http://niyama2018.tumblr.com/"><img class="social" src="assets/media/icons/icon-tumblr@2x.png" /></a>
+            </div>
+
+            <div class="u-cf clear"></div>
         </footer>
     </div>
 
