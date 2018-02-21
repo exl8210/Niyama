@@ -37,9 +37,7 @@
             <div id="share-options">
                 <a class="share-link" id="shareFB">Facebook</a> &nbsp;
                 <a class="share-link" id="shareTwitter">Twitter</a> &nbsp;
-                <a class="share-link" id="shareTumblr">Tumblr</a> &nbsp;
-                <a class="share-link" id="sharePin">Pinterest</a> &nbsp;
-                <a class="share-link" id="shareLink">Copy quote</a>
+                <a class="share-link" id="shareTumblr">Tumblr</a>
             </div>
         </div>
     </div>

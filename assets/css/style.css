@@ -73,6 +73,7 @@ header {
 #logo {
     width: 90px;
     position: absolute;
+    z-index: 5;
 }
 
 nav {

@@ -1,7 +1,7 @@
 "use strict";
 
 // variable to store quote
-var quote;
+var quote, author;
 
 
 $(document).ready(function () {
@@ -14,7 +14,10 @@ $(document).ready(function () {
         var randNum = Math.floor((Math.random() * 10) + 1);
 
         // save quote
-        quote = happyQuoteArr[randNum];
+        quote = happyQuoteArr[randNum][0];
+
+        // save author
+        author = happyQuoteArr[randNum][1];
     }
 
     function sadQuote() {
@@ -22,7 +25,10 @@ $(document).ready(function () {
         var randNum = Math.floor((Math.random() * 10) + 1);
 
         // save quote
-        quote = sadQuoteArr[randNum];
+        quote = sadQuoteArr[randNum][0];
+
+        // save author
+        author = sadQuoteArr[randNum][1];
     }
 
 
@@ -122,19 +128,39 @@ $(document).ready(function () {
 
 
     //share to different social media channels
-    $("#shareFB").onclick = function () {
-//        FB.ui({
-//            method: 'feed',
-//            link: 'https://niyama.cias.rit.edu/',
-//            caption: quote,
-//        }, function (response) {});
+    $("#shareFB").click(function () {
+        FB.ui({
+            method: 'feed',
+            link: 'https://niyama.cias.rit.edu/',
+            caption: "\"" + quote + "\" – " + author,
+        }, function (response) {});
+
         console.log("shareFB link clicked");
-    };
-    
-    $("#shareTwitter").onclick = function() {
+    });
+
+    $("#shareTwitter").click(function () {
         console.log("shareTwitter link clicked");
-        window.open();
-    }
+
+        var url = "https://twitter.com/intent/tweet?url=http%3A%2F%2Fniyama.cias.rit.edu%2F&text=\"" + quote + "\" – " + author + " // ";
+
+        window.open(url);
+    });
+
+    $("#shareTumblr").click(function () {
+        console.log("shareTumblr link clicked");
+
+        var url = "https://www.tumblr.com/widgets/share/tool?posttype=quote&amp;title=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;caption=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;content=http%3A%2F%2Fsharingbuttons.io&amp;canonicalUrl=http%3A%2F%2Fsharingbuttons.io&amp;shareSource=tumblr_share_button";
+
+        var url = "https://www.tumblr.com/widgets/share/tool?posttype=quote&content=" + quote + "&caption=" + author + "&canonicalUrl=http://niyama.cias.rit.edu";
+
+        window.open(url);
+    });
+
+    $("#shareClip").click(function () {
+        console.log("shareClip link clicked");
+
+        
+    });
 
 
     /*
