@@ -35,7 +35,11 @@
             <a class="button" id="share-button">Share the love!</a>
 
             <div id="share-options">
-                hello
+                <a class="share-link" id="shareFB">Facebook</a> &nbsp;
+                <a class="share-link" id="shareTwitter">Twitter</a> &nbsp;
+                <a class="share-link" id="shareTumblr">Tumblr</a> &nbsp;
+                <a class="share-link" id="sharePin">Pinterest</a> &nbsp;
+                <a class="share-link" id="shareLink">Copy quote</a>
             </div>
         </div>
     </div>
@@ -95,4 +99,4 @@
         </div>
     </div>
 
-    <?php include("footer.php"); ?>
+<?php include("footer.php"); ?>

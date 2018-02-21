@@ -10,10 +10,12 @@
     <meta property="og:site_name" content="Niyama" />
     <meta property="og:title" content="Making Positive Connections" />
     <meta property="og:description" content="Come interact with curious little characters, Yolks, and help spread happiness through their world! Niyama's exhibit at ImagineRIT will be a fun, engaging, interactive simulation that shows how small gestures can have a great influence in the world." />
-    <meta property="og:image" content="assets/media/yolk-banner.jpg">
+    <meta property="og:url" content="http://niyama.cias.rit.edu/" />
+    <meta property="og:image" content="http://niyama.cias.rit.edu/assets/media/yolk-banner.jpg">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="960">
     <meta property="og:image:height" content="400">
+    <meta property="og:type" content="website" />
 
     <!-- favicon -->
     <link rel="icon" type="image/png" href="assets/media/brand/favicon-16x16.png" sizes="16x16">
@@ -30,6 +32,7 @@
 
     <!-- script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/quotes.js"></script>
     <script type="text/javascript" src="assets/js/functions.js"></script>
     <script type="text/javascript">
         "use strict";
@@ -58,6 +61,28 @@
 </head>
 
 <body>
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId: '172433926715446',
+                autoLogAppEvents: true,
+                xfbml: true,
+                version: 'v2.12'
+            });
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {
+                return;
+            }
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+    </script>
 
     <div class="container">
         <header class="offset-by-one ten columns">

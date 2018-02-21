@@ -13,6 +13,7 @@
     <div class="two columns">
         <ul>
             <li><a href="exhibit.php">See Our Exhibit</a></li>
+            <li><a href="exhibit.php">Read Real Stories</a></li>
             <li><a href="information.php">Get More Information</a></li>
             <li><a href="team.php">Meet The Team</a></li>
         </ul>
