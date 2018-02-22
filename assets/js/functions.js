@@ -5,6 +5,7 @@ var quote, author;
 
 
 $(document).ready(function () {
+
     /*
         Select from array of quotes
     */
@@ -89,31 +90,31 @@ $(document).ready(function () {
     */
 
     switch (pageName[0]) {
-        case '':
-            break;
+    case '':
+        break;
 
-        case 'exhibit':
-            $("nav").removeClass("pre-nav");
-            $('#navExhibit').addClass("current");
-            break;
+    case 'exhibit':
+        $("nav").removeClass("pre-nav");
+        $('#navExhibit').addClass("current");
+        break;
 
-        case 'stories':
-            $("nav").removeClass("pre-nav");
-            $('#navStories').addClass("current");
-            break;
+    case 'stories':
+        $("nav").removeClass("pre-nav");
+        $('#navStories').addClass("current");
+        break;
 
-        case 'information':
-            $("nav").removeClass("pre-nav");
-            $('#navInfo').addClass("current");
-            break;
+    case 'information':
+        $("nav").removeClass("pre-nav");
+        $('#navInfo').addClass("current");
+        break;
 
-        case 'team':
-            $("nav").removeClass("pre-nav");
-            $('#navTeam').addClass("current");
-            break;
+    case 'team':
+        $("nav").removeClass("pre-nav");
+        $('#navTeam').addClass("current");
+        break;
 
-        default:
-            break;
+    default:
+        break;
     }
 
 
@@ -159,7 +160,7 @@ $(document).ready(function () {
     $("#shareClip").click(function () {
         console.log("shareClip link clicked");
 
-        
+
     });
 
 
