@@ -3,7 +3,9 @@
     <!-- Yolk Quotes -->
     <div class="row" id="yolk-container">
         <div class="offset-by-one four columns" id="yolk">
-            Yolk animation + refresh goes here
+            <img id="init-yolk" src="http://placehold.it/200x200" />
+            
+            <a id="end-yolk"><img src="http://placehold.it/200x200" /></a>
         </div>
 
         <div class="six columns" id="yolk-intro">
@@ -16,7 +18,7 @@
             <div class="u-cf small-vert-space"></div>
 
             <a class="button" id="happy-button">Fantabulous!</a>
-            <a class="button" id="neutral-button">Meep.</a>
+            <a class="button" id="neutral-button">Alright.</a>
             <a class="button" id="sad-button">Under the weather...</a>
         </div>
         
@@ -25,11 +27,13 @@
         <div class="six columns" id="yolk-quote">
             <h2 id="quoteHeading">I’m so happy to hear that!</h2>
 
-            <blockquote id="quoteContent">
-                Every time you smile at someone, it is an action of love, a gift to that person, a beautiful thing.
+            <blockquote>
+                <span id="quoteContent">Every time you smile at someone, it is an action of love, a gift to that person, a beautiful thing.</span>
                 <br />
-                <p class="attr">Mother Teresa</p>
+                <p id="quoteAttr">Mother Teresa</p>
             </blockquote>
+            
+            <div class="u-cf small-vert-space"></div>
             
             <!-- share options -->
             <a class="button" id="share-button">Share the love!</a>
@@ -71,7 +75,7 @@
         <div class="u-cf large-vert-space"></div>
 
         <div class="u-full-width u-centre">
-            <a class="button">More about positivity</a>
+            <a href="information.php" class="button">More about positivity</a>
         </div>
     </div>
 
@@ -93,7 +97,7 @@
         <div class="u-cf large-vert-space"></div>
 
         <div class="u-full-width u-centre">
-            <a class="button">More about Niyama</a>
+            <a href="exhibit.php" class="button">More about Niyama</a>
         </div>
     </div>
 

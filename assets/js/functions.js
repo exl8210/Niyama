@@ -1,7 +1,7 @@
 "use strict";
 
 // variable to store quote
-var quote, author;
+var mood, heading, quote, author, max;
 
 
 $(document).ready(function () {
@@ -10,26 +10,44 @@ $(document).ready(function () {
         Select from array of quotes
     */
 
-    function happyQuote() {
+    function happyQuote(selection) {
+        max = happyQuoteArr.length;
+
         // random number between 1 and 10
-        var randNum = Math.floor((Math.random() * 10) + 1);
+        var randNum = Math.floor((Math.random() * max));
 
         // save quote
         quote = happyQuoteArr[randNum][0];
 
         // save author
         author = happyQuoteArr[randNum][1];
+
+        // determine heading
+        if (selection == "happy") {
+            heading = "I'm so happy to hear that!";
+        } else if (selection == "neutral") {
+            heading = "Cool cool!";
+        }
+
+        console.log("Your happy quote is " + quote + " by " + author);
     }
 
     function sadQuote() {
+        max = sadQuoteArr.length;
+
         // random number between 1 and 10
-        var randNum = Math.floor((Math.random() * 10) + 1);
+        var randNum = Math.floor((Math.random() * max));
 
         // save quote
         quote = sadQuoteArr[randNum][0];
 
         // save author
         author = sadQuoteArr[randNum][1];
+
+        // determine heading
+        heading = "I'm sorry to hear that.";
+
+        console.log("Your sad quote is " + quote + " by " + author);
     }
 
 
@@ -39,17 +57,46 @@ $(document).ready(function () {
 
     // happy
     $("#happy-button").click(function () {
+        mood = "happy";
+        happyQuote(mood);
         loadContent();
+        console.log(mood);
+    });
+
+    $("#neutral-button").click(function () {
+        mood = "neutral";
+        happyQuote(mood);
+        loadContent();
+        console.log(mood);
+    });
+
+    $("#sad-button").click(function () {
+        mood = "sad";
+        sadQuote();
+        loadContent();
+        console.log(mood);
     });
 
 
     // fade out yolk-intro, fade in yolk-quote
     function loadContent() {
+        $("#quoteHeading").text(heading);
+        $("#quoteContent").text(quote);
+
+        if (author != "") {
+            $("#quoteAttr").text(author);
+            $("#quoteAttr").show();
+        } else {
+            $("#quoteAttr").hide();
+        }
+
         $("#yolk-intro").fadeOut();
+        $("#init-yolk").fadeOut();
         $("footer").fadeOut();
 
         setTimeout(function () {
             $("#yolk-quote").fadeIn();
+            $("#end-yolk").fadeIn();
         }, 500);
 
         setTimeout(function () {
@@ -72,6 +119,47 @@ $(document).ready(function () {
         }, 1200);
     }
 
+    // reload quote for new quote
+    $("#end-yolk").click(newQuote);
+
+    function newQuote() {
+        $("#yolk-quote").fadeOut();
+
+        setTimeout(function () {
+            console.log(mood, quote, author);
+
+            switch (mood) {
+                case "happy":
+                    happyQuote(mood);
+                    break;
+
+                case "neutral":
+                    happyQuote(mood);
+                    break;
+
+                case "sad":
+                    sadQuote();
+                    break;
+
+                default:
+                    break;
+            }
+
+            $("#quoteContent").text(quote);
+
+            if (author != "") {
+                $("#quoteAttr").text(author);
+                $("#quoteAttr").show();
+            } else {
+                $("#quoteAttr").hide();
+            }
+        }, 400);
+        
+        setTimeout(function() {
+            $("#yolk-quote").fadeIn();
+        }, 800);
+    }
+
 
     /*
         URL-related variables
@@ -90,31 +178,31 @@ $(document).ready(function () {
     */
 
     switch (pageName[0]) {
-    case '':
-        break;
+        case '':
+            break;
 
-    case 'exhibit':
-        $("nav").removeClass("pre-nav");
-        $('#navExhibit').addClass("current");
-        break;
+        case 'exhibit':
+            $("nav").removeClass("pre-nav");
+            $('#navExhibit').addClass("current");
+            break;
 
-    case 'stories':
-        $("nav").removeClass("pre-nav");
-        $('#navStories').addClass("current");
-        break;
+        case 'stories':
+            $("nav").removeClass("pre-nav");
+            $('#navStories').addClass("current");
+            break;
 
-    case 'information':
-        $("nav").removeClass("pre-nav");
-        $('#navInfo').addClass("current");
-        break;
+        case 'information':
+            $("nav").removeClass("pre-nav");
+            $('#navInfo').addClass("current");
+            break;
 
-    case 'team':
-        $("nav").removeClass("pre-nav");
-        $('#navTeam').addClass("current");
-        break;
+        case 'team':
+            $("nav").removeClass("pre-nav");
+            $('#navTeam').addClass("current");
+            break;
 
-    default:
-        break;
+        default:
+            break;
     }
 
 

@@ -74,7 +74,7 @@
         <p>Positive psychology researcher Jennifer Stellar illuminates how truly awe-inspiring experiences may mean more than we realize for our physical and mental health.</p>
     </div>
 
-    <div class="u-cf small-vert-space"></div>
+    <div class="u-cf large-vert-space"></div>
 
     <div class="offset-by-one three columns">
         <a href="https://www.ted.com/talks/drew_dudley_everyday_leadership" target="_blank">
@@ -106,26 +106,26 @@
     <div class="u-cf"></div>
 
     <div class="offset-by-one five columns">
-        <img src="assets/media/apps/headspace.jpg" class="u-pull-left info-icon" />
+        <img src="assets/media/books/how-to-win-friends.jpg" class="u-pull-left book-icon" />
 
-        <h3>Alexis' book</h3>
-        <p>Headspace is a digital service that provides guided meditation sessions and mindfulness training. Its content can be accessed online, or via their mobile apps.</p>
+        <h3>How to Win Friends and Influence People</h3>
+        <p><strong>Dale Carnegie</strong><br />Headspace is a digital service that provides guided meditation sessions and mindfulness training. Its content can be accessed online, or via their mobile apps.</p>
     </div>
 
     <div class="offset-by-one five columns">
-        <img src="assets/media/apps/headspace.jpg" class="u-pull-left info-icon" />
+        <img src="assets/media/books/each-kindness.jpg" class="u-pull-left book-icon" />
 
         <h3>Each Kindness</h3>
-        <p><em>Jacqueline Woodson</em><br />Each kindness makes the world a little better.</p>
+        <p><strong>Jacqueline Woodson</strong><br />Each kindness makes the world a little better.</p>
     </div>
 
-    <div class="u-cf small-vert-space"></div>
+    <div class="u-cf large-vert-space"></div>
 
     <div class="offset-by-one five columns">
-        <img src="assets/media/apps/headspace.jpg" class="u-pull-left info-icon" />
+        <img src="assets/media/books/good-people-everywhere.jpg" class="u-pull-left book-icon" />
 
         <h3>Good People Everywhere</h3>
-        <p><em>Lynea Gillen</em><br />A colorful picture book that will warm the hearts of children and adults alike, each of its pages contain endearing examples and vibrant illustrations to inspire children to grow into grateful, caring, and giving people.</p>
+        <p><strong>Lynea Gillen</strong><br />A colorful picture book that will warm the hearts of children and adults alike, each of its pages contain endearing examples and vibrant illustrations to inspire children to grow into grateful, caring, and giving people.</p>
     </div>
 </div>
 
