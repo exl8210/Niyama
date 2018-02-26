@@ -76,7 +76,7 @@
 
     <div class="container">
         <header class="offset-by-one ten columns">
-            <a href="index.php"><img src="assets/media/brand/niyama-logo@2x.png" id="logo" alt="Niyama" /></a>
+            <a href="index.php"><img src="assets/media/brand/niyama-side@2x.png" id="logo" alt="Niyama" /></a>
 
             <nav class="pre-nav">
                 <ul>

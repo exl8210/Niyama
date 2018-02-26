@@ -4,7 +4,7 @@
     <div class="row" id="yolk-container">
         <div class="offset-by-one four columns" id="yolk">
             <img id="init-yolk" src="http://placehold.it/200x200" />
-            
+
             <a id="end-yolk"><img src="http://placehold.it/200x200" /></a>
         </div>
 
@@ -21,7 +21,7 @@
             <a class="button" id="neutral-button">Alright.</a>
             <a class="button" id="sad-button">Under the weather...</a>
         </div>
-        
+
         <div class="u-cf"></div>
 
         <div class="six columns" id="yolk-quote">
@@ -32,9 +32,9 @@
                 <br />
                 <p id="quoteAttr">Mother Teresa</p>
             </blockquote>
-            
+
             <div class="u-cf small-vert-space"></div>
-            
+
             <!-- share options -->
             <a class="button" id="share-button">Share the love!</a>
 
@@ -43,6 +43,18 @@
                 <a class="share-link" id="shareTwitter">Twitter</a> &nbsp;
                 <a class="share-link" id="shareTumblr">Tumblr</a>
             </div>
+        </div>
+    </div>
+
+    <div class="u-cf large-vert-space"></div>
+
+    <!-- Welcome to Niyama -->
+    <div class="row" id="welcome">
+        <div class="offset-by-four u-centre four columns">
+            <h1>Niyama</h1>
+            <p><strong>नियम</strong>
+                <br /><em>Positive duties or observances.</em></p>
+            <p style="text-align: left;">Life isn't always rainbows and butterflies, and that's okay. Niyama is a reminder that <strong>every positive connection makes a difference</strong>, not only to the people you are kind to, but also to yourself. </p>
         </div>
     </div>
 
@@ -101,4 +113,4 @@
         </div>
     </div>
 
-<?php include("footer.php"); ?>
+    <?php include("footer.php"); ?>

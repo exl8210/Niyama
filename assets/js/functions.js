@@ -43,7 +43,7 @@ $(document).ready(function () {
         author = sadQuoteArr[randNum][1];
 
         // determine heading
-        heading = "I'm sorry to hear that.";
+        heading = "I'm sorry to hear that. You need a hug!";
     }
 
 
@@ -100,6 +100,10 @@ $(document).ready(function () {
         }, 800);
 
         setTimeout(function () {
+            $("#welcome").fadeIn().animate({
+                marginTop: "-20px",
+                opacity: 1
+            }, 500);
             $("#did-you-know").fadeIn().animate({
                 marginTop: "-20px",
                 opacity: 1
