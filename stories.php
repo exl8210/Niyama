@@ -38,7 +38,7 @@
         </div>
     </div>
 
-    
+    <div class="u-cf small-vert-space"></div>
 
     <div id="stories" class="pre-show">
         <div class="row grid offset-by-one ten columns">

@@ -9,7 +9,7 @@
         <h1>Negativity spreads fast.<br />
                 Help spread positivity faster.</h1> Copyright &copy; 2018. Niyama &hearts;
         
-        <div class="u-cf small-vert-space"></div>
+        <div class="u-cf large-vert-space"></div>
         
         <div id="rit-logos">
             <a href="https://www.rit.edu" target="_blank"><img src="assets/media/logos/rit.gif" class="school-logo" /></a>

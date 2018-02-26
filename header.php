@@ -9,7 +9,7 @@
     <!-- og - the content that comes up when shared on social media -->
     <meta property="og:site_name" content="Niyama" />
     <meta property="og:title" content="Making Positive Connections" />
-    <meta property="og:description" content="Come interact with curious little characters, Yolks, and help spread happiness through their world! Niyama's exhibit at ImagineRIT will be a fun, engaging, interactive simulation that shows how small gestures can have a great influence in the world." />
+    <meta property="og:description" content="Come interact with curious little characters, Yolks, and help spread happiness through their world! Niyama's exhibit at Imagine RIT will be a fun, engaging, interactive simulation that shows how small gestures can have a great influence in the world." />
     <meta property="og:url" content="http://niyama.cias.rit.edu/" />
     <meta property="og:image" content="http://niyama.cias.rit.edu/assets/media/yolk-banner.jpg">
     <meta property="og:image:type" content="image/jpeg">
