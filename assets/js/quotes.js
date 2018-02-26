@@ -1,6 +1,6 @@
 "use strict";
 
-console.log("quotes.js running");
+//console.log("quotes.js running");
 
 var happyQuoteArr = [
     ["Smiles are free, but they are worth a lot!", ""],
@@ -69,5 +69,5 @@ var sadQuoteArr = [
     ["Live for the moments you can't put into words.", ""],
 ];
 
-console.dir(happyQuoteArr);
-console.dir(sadQuoteArr);
+//console.dir(happyQuoteArr);
+//console.dir(sadQuoteArr);

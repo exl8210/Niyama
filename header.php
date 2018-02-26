@@ -34,16 +34,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/quotes.js"></script>
     <script type="text/javascript" src="assets/js/functions.js"></script>
-    <script type="text/javascript">
-        "use strict";
-
-        window.onload = init;
-
-        function init() {
-            console.log("init() called");
-        }
-
-    </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110221230-2"></script>

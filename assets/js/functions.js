@@ -28,8 +28,6 @@ $(document).ready(function () {
         } else if (selection == "neutral") {
             heading = "Cool cool!";
         }
-
-        console.log("Your happy quote is " + quote + " by " + author);
     }
 
     function sadQuote() {
@@ -46,8 +44,6 @@ $(document).ready(function () {
 
         // determine heading
         heading = "I'm sorry to hear that.";
-
-        console.log("Your sad quote is " + quote + " by " + author);
     }
 
 
@@ -126,8 +122,6 @@ $(document).ready(function () {
         $("#yolk-quote").fadeOut();
 
         setTimeout(function () {
-            console.log(mood, quote, author);
-
             switch (mood) {
                 case "happy":
                     happyQuote(mood);
@@ -168,11 +162,11 @@ $(document).ready(function () {
     var urlArr = document.URL.split('/'); // split URL by '/' delimiter
     var page = urlArr[urlArr.length - 1]; // take last element in URL, a.k.a. the page file name + extension
     var pageName = page.split('.'); // array that holds split page name
-
+    /*
     for (var i = 0; i < pageName.length; i++) {
         console.log(pageName[i]);
     }
-
+    */
     /* 
         navigation - current page indicator, show nav
     */
