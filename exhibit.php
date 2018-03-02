@@ -121,7 +121,7 @@
     <div class="u-cf clear"></div>
 
     <div class="row case-section">
-        <div class="offset-by-two three columns">
+        <div class="offset-by-one four columns">
             <h1>How will you spread happiness today?</h1>
         </div>
 

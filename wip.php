@@ -46,9 +46,9 @@
         </div>
     </div>
 
-    <div class="u-cf large-vert-space"></div>
+    <!-- <div class="u-cf large-vert-space"></div>
 
-    <!-- Welcome to Niyama -->
+    Welcome to Niyama
     <div class="row" id="welcome">
         <div class="offset-by-four u-centre four columns">
             <h1>Niyama</h1>
@@ -56,7 +56,7 @@
                 <br /><em>Positive duties or observances.</em></p>
             <p style="text-align: left;">Life isn't always rainbows and butterflies, and that's okay. Niyama is a reminder that <strong>every positive connection makes a difference</strong>, not only to the people you are kind to, but also to yourself. </p>
         </div>
-    </div>
+    </div> -->
 
     <div class="u-cf clear"></div>
 
@@ -70,18 +70,49 @@
         <div class="u-cf large-vert-space"></div>
 
         <div class="offset-by-one ten columns" id="info-cards">
-            <a class="card">
+            <a class="card" href="#modal-butterfly" id="card-butterfly">
                 <img class="icon" src="assets/media/icons/icon-butterfly@2x.png" />
                 <span>A Butterfly Effect</span>
             </a>
-            <a class="card">
+            <a class="card" href="#modal-lollipop" id="card-lollipop">
                 <img class="icon" src="assets/media/icons/icon-lollipop@2x.png" />
                 <span>Lollipop Moments</span>
             </a>
-            <a class="card">
+            <a class="card" href="#modal-interrupt" id="card-interrupt">
                 <img class="icon" src="assets/media/icons/icon-interruptions@2x.png" />
                 <span>Beautiful Interruptions</span>
             </a>
+        </div>
+
+        <!-- Info modals -->
+        <div id="modal-butterfly">
+            <div id="btn-close-modal" class="close-modal-butterfly">
+                CLOSE MODAL
+            </div>
+
+            <div class="modal-content">
+                <!--Your modal content goes here-->
+            </div>
+        </div>
+        
+        <div id="modal-lollipop">
+            <div id="btn-close-modal" class="close-modal-lollipop">
+                CLOSE MODAL
+            </div>
+
+            <div class="modal-content">
+                <!--Your modal content goes here-->
+            </div>
+        </div>
+        
+        <div id="modal-interrupt">
+            <div id="btn-close-modal" class="close-modal-interrupt">
+                CLOSE MODAL
+            </div>
+
+            <div class="modal-content">
+                <!--Your modal content goes here-->
+            </div>
         </div>
 
         <div class="u-cf large-vert-space"></div>

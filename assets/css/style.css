@@ -83,7 +83,7 @@ header {
 
 /* NAVIGATION */
 #logo {
-    height: 60px;
+    height: 80px;
     position: absolute;
     z-index: 5;
 }
@@ -94,7 +94,7 @@ nav {
     height: auto;
     text-align: right;
     opacity: 1;
-    margin-top: 0;
+    margin-top: 10px;
     transition: background-image 0.2s ease, opacity 0.5s ease, margin-top 0.5s ease;
 }
 
@@ -109,6 +109,10 @@ nav ul li {
     vertical-align: middle;
     width: auto;
     text-align: left;
+}
+
+nav ul li.shorter {
+    width: 80px;
 }
 
 nav ul li a {
@@ -343,6 +347,7 @@ li {
 
 .ted-screen {
     max-width: 330px;
+    margin-bottom: 10px;
 }
 
 .book-icon {

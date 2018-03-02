@@ -28,6 +28,7 @@
     <!-- styles -->
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/skeleton-modified.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/animate.min.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,700|Karla:400,400i,700,700i" rel="stylesheet">
 
     <!-- script -->
@@ -76,14 +77,14 @@
 
     <div class="container">
         <header class="offset-by-one ten columns">
-            <a href="index.php"><img src="assets/media/brand/niyama-side@2x.png" id="logo" alt="Niyama" /></a>
+            <a href="index.php"><img src="assets/media/brand/niyama-tagline@2x.png" id="logo" alt="Niyama" /></a>
 
             <nav class="pre-nav">
                 <ul>
                     <li><a href="exhibit.php" id="navExhibit">See our<br />Exhibit</a></li>
-                    <li><a href="stories.php" id="navStories">Read real<br />Stories</a></li>
+                    <li><a href="stories.php" class="shorter" id="navStories">Read real<br />Stories</a></li>
                     <li><a href="information.php" id="navInfo">Get more<br />Information</a></li>
-                    <li><a href="team.php" id="navTeam">Meet the<br />Team</a></li>
+                    <li><a href="team.php" class="shorter" id="navTeam">Meet the<br />Team</a></li>
                 </ul>
             </nav>
 
