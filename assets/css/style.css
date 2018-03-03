@@ -124,6 +124,14 @@ nav.pre-nav {
     margin-top: -40px;
 }
 
+#navStories {
+    width: 122px;
+}
+
+#navTeam {
+    width: 110px;
+}
+
 nav ul li {
     list-style-type: none;
     display: inline-block;
