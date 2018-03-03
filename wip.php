@@ -63,7 +63,7 @@
     <!-- Did you know -->
     <div class="row" id="did-you-know">
         <div class="offset-by-one four columns">
-            <h2>Did you know?</h2>
+            <h2>Positive gestures make a difference!</h2>
             <p>We interact with approximately <strong>80,000 people</strong> in a lifetime, but we tend to be unaware of how impactful small positive gestures have on others.</p>
         </div>
 
@@ -127,7 +127,7 @@
     <!-- Exhibit intro -->
     <div class="row" id="exhibit-intro">
         <div class="offset-by-one four columns">
-            <h2>We practice what we preach.</h2>
+            <h2>Our exhibit aims to set an example.</h2>
             <p>In April 2018, a group of nine designers and developers from the Rochester Institute of Technology's New Media and Industrial Design programmes created a fun, engaging, interactive simulation that shows how <strong>small gestures have a great influence</strong>.</p>
         </div>
 

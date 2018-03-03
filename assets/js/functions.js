@@ -176,25 +176,30 @@ $(document).ready(function () {
     */
 
     switch (pageName[0]) {
-        case '':
+        case 'wip':
+            $("body").css("background", "#fcfcfc url(\"http://niyama.cias.rit.edu/assets/media/bg-yellow-gradient.svg\") no-repeat center top");
             break;
 
         case 'exhibit':
+            $("body").css("background", "#fcfcfc url(\"http://niyama.cias.rit.edu/assets/media/bg-coloured-large.svg\") no-repeat center top");
             $("nav").removeClass("pre-nav");
             $('#navExhibit').addClass("current");
             break;
 
         case 'stories':
+            $("body").css("background", "#fcfcfc url(\"http://niyama.cias.rit.edu/assets/media/bg-coloured-small.svg\") no-repeat center top");
             $("nav").removeClass("pre-nav");
             $('#navStories').addClass("current");
             break;
 
         case 'information':
+            $("body").css("background", "#fcfcfc url(\"http://niyama.cias.rit.edu/assets/media/bg-coloured-small.svg\") no-repeat center top");
             $("nav").removeClass("pre-nav");
             $('#navInfo').addClass("current");
             break;
 
         case 'team':
+            $("body").css("background", "#fcfcfc url(\"http://niyama.cias.rit.edu/assets/media/bg-coloured-small.svg\") no-repeat center top");
             $("nav").removeClass("pre-nav");
             $('#navTeam').addClass("current");
             break;
