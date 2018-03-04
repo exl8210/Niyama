@@ -3,9 +3,9 @@
     <!-- Yolk Quotes -->
     <div class="row" id="yolk-container">
         <div class="offset-by-one four columns" id="yolk">
-            <img id="init-yolk" src="http://placehold.it/200x200" />
+            <img id="init-yolk" src="assets/media/wave.svg" />
 
-            <a id="end-yolk"><img src="http://placehold.it/200x200" /></a>
+            <a id="end-yolk"><img src="assets/media/L-happy.svg" /></a>
         </div>
 
         <div class="six columns" id="yolk-intro">
@@ -63,7 +63,7 @@
     <!-- Did you know -->
     <div class="row" id="did-you-know">
         <div class="offset-by-one four columns">
-            <h2>Positive gestures make a difference!</h2>
+            <h2>Small things make a difference!</h2>
             <p>We interact with approximately <strong>80,000 people</strong> in a lifetime, but we tend to be unaware of how impactful small positive gestures have on others.</p>
         </div>
 

@@ -5,6 +5,11 @@ var mood, heading, quote, author, max;
 
 
 $(document).ready(function () {
+    $("body").animate({
+        opacity: 1,
+        marginTop: '0px'
+    }, 280);
+
 
     /*
         Select from array of quotes
@@ -152,8 +157,8 @@ $(document).ready(function () {
                 $("#quoteAttr").hide();
             }
         }, 400);
-        
-        setTimeout(function() {
+
+        setTimeout(function () {
             $("#yolk-quote").fadeIn();
         }, 800);
     }
@@ -177,29 +182,44 @@ $(document).ready(function () {
 
     switch (pageName[0]) {
         case 'wip':
-            $("body").css("background", "#fcfcfc url(\"http://niyama.cias.rit.edu/assets/media/bg-yellow-gradient.svg\") no-repeat center top");
+            $("body").css({
+                "background": "#fcfcfc url(\"http://niyama.cias.rit.edu/assets/media/bg-yellow-gradient.svg\") no-repeat",
+                "background-size": "100%"
+            });
             break;
 
         case 'exhibit':
-            $("body").css("background", "#fcfcfc url(\"http://niyama.cias.rit.edu/assets/media/bg-coloured-large.svg\") no-repeat center top");
+            $("body").css({
+                "background": "#fcfcfc url(\"http://niyama.cias.rit.edu/assets/media/bg-coloured-large.svg\") no-repeat",
+                "background-size": "100%"
+            });
             $("nav").removeClass("pre-nav");
             $('#navExhibit').addClass("current");
             break;
 
         case 'stories':
-            $("body").css("background", "#fcfcfc url(\"http://niyama.cias.rit.edu/assets/media/bg-coloured-small.svg\") no-repeat center top");
+            $("body").css({
+                "background": "#fcfcfc url(\"http://niyama.cias.rit.edu/assets/media/bg-coloured-small.svg\") no-repeat",
+                "background-size": "100%"
+            });
             $("nav").removeClass("pre-nav");
             $('#navStories').addClass("current");
             break;
 
         case 'information':
-            $("body").css("background", "#fcfcfc url(\"http://niyama.cias.rit.edu/assets/media/bg-coloured-small.svg\") no-repeat center top");
+            $("body").css({
+                "background": "#fcfcfc url(\"http://niyama.cias.rit.edu/assets/media/bg-coloured-small.svg\") no-repeat",
+                "background-size": "100%"
+            });
             $("nav").removeClass("pre-nav");
             $('#navInfo').addClass("current");
             break;
 
         case 'team':
-            $("body").css("background", "#fcfcfc url(\"http://niyama.cias.rit.edu/assets/media/bg-coloured-small.svg\") no-repeat center top");
+            $("body").css({
+                "background": "#fcfcfc url(\"http://niyama.cias.rit.edu/assets/media/bg-coloured-small.svg\") no-repeat",
+                "background-size": "100%"
+            });
             $("nav").removeClass("pre-nav");
             $('#navTeam').addClass("current");
             break;
