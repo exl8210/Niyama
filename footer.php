@@ -22,7 +22,7 @@
             </div>
         </div>
 
-        <div class="two columns">
+        <div class="three columns">
             <ul>
                 <li><a href="exhibit.php">See Our Exhibit</a></li>
                 <li><a href="exhibit.php">Read Real Stories</a></li>
@@ -32,11 +32,13 @@
 
             <br />
 
-            <a href="http://www.facebook.com/niyama2018/"><img class="social" src="assets/media/icons/icon-fb@2x.png" /></a>
+            <a href="http://www.facebook.com/niyama2018/" class="noHover"><img class="social" src="assets/media/icons/fb@2x.png" /></a>
 
-            <a href="http://www.instagram.com/niyama2018/"><img class="social" src="assets/media/icons/icon-ig@2x.png" /></a>
+            <a href="http://www.instagram.com/niyama2018/" class="noHover"><img class="social" src="assets/media/icons/ig@2x.png" /></a>
 
-            <a href="http://niyama2018.tumblr.com/"><img class="social" src="assets/media/icons/icon-tumblr@2x.png" /></a>
+            <a href="http://niyama2018.tumblr.com/" class="noHover"><img class="social" src="assets/media/icons/tumblr@2x.png" /></a>
+            
+            <a href="http://www.twitter.com/niyama2018" class="noHover"><img class="social" src="assets/media/icons/twitter@2x.png" /></a>
         </div>
 
         <div class="u-cf clear"></div>

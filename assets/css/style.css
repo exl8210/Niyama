@@ -462,3 +462,11 @@ ul#thank-people {
 span.attr {
     color: #888;
 }
+
+a.noHover {
+    border: 0;
+}
+
+a.noHover:hover {
+    border: 0;
+}
