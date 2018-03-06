@@ -39,9 +39,15 @@
             <a class="button" id="share-button">Share the love!</a>
 
             <div id="share-options">
-                <a class="share-link" id="shareFB">Facebook</a> &nbsp;
-                <a class="share-link" id="shareTwitter">Twitter</a> &nbsp;
-                <a class="share-link" id="shareTumblr">Tumblr</a>
+                <a class="share-link noHover" id="shareFB"><i class="fab fa-facebook-f"></i>
+
+</a> &nbsp;
+                <a class="share-link noHover" id="shareTwitter"><i class="fab fa-twitter"></i>
+
+</a> &nbsp;
+                <a class="share-link noHover" id="shareTumblr"><i class="fab fa-tumblr"></i>
+
+</a>
             </div>
         </div>
     </div>
@@ -134,7 +140,8 @@
         <div class="u-cf large-vert-space"></div>
 
         <div class="offset-by-one ten columns">
-            <div style="width: 100%; height: 636px; border: 1px solid #232323"> promotional video - animation, or final post-Imagine RIT cut</div>
+<!--            <div style="width: 100%; height: 636px; border: 1px solid #232323"> promotional video - animation, or final post-Imagine RIT cut</div>-->
+            <iframe src="https://player.vimeo.com/video/258041476" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
 
         <div class="u-cf large-vert-space"></div>

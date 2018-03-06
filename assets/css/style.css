@@ -294,16 +294,20 @@ p {
 
 .share-link {
     cursor: pointer;
+    color: #F2667A;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.2s ease;
+}
+
+.share-link:hover {
+    color: #fbcd63;
 }
 
 a:link, a:visited, a:active {
     color: #F2667A;
     border-bottom: 1px solid rgba(251, 205, 99, 0);
     transition: border-bottom 0.3s ease;
-}
-
-a::after {
-    
 }
 
 a:hover {
@@ -366,18 +370,11 @@ a:hover {
     cursor: pointer;
     margin: 0 10px 20px;
     box-shadow: none;
-    border: 1px solid #5a99f6 !important;
-    transition: margin-top ease 0.3s, box-shadow ease 0.3s !important;
 }
 
 .story, .card {
     border-radius: 10px;
     background: #fff;
-}
-
-.card:hover {
-    margin-top: -20px;
-    box-shadow: 0px 4px 10px rgba(90, 153, 246, .35);
 }
 
 .card .icon {
@@ -388,9 +385,40 @@ a:hover {
 }
 
 .card span {
+    color: #fff;
     font-size: 18px;
     align-self: flex-end;
     margin-bottom: 40px;
+}
+
+#card-butterfly {
+    background: #FF8C64 !important;
+    transition: margin-top ease 0.3s, box-shadow ease 0.3s !important;
+}
+
+#card-butterfly:hover {
+    margin-top: -20px;
+    box-shadow: 0px 3px 10px rgba(255, 140, 100, 0.35);
+}
+
+#card-lollipop {
+    background: #977BDC !important;
+    transition: margin-top ease 0.3s, box-shadow ease 0.3s !important;
+}
+
+#card-lollipop:hover {
+    margin-top: -20px;
+    box-shadow: 0px 3px 10px rgba(151, 123, 220, 0.35);
+}
+
+#card-interrupt {
+    background: #5A99F6 !important;
+    transition: margin-top ease 0.3s, box-shadow ease 0.3s !important;
+}
+
+#card-interrupt:hover {
+    margin-top: -20px;
+    box-shadow: 0px 3px 10px rgba(90, 153, 246, .35);
 }
 
 ul {

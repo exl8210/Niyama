@@ -31,10 +31,15 @@
     <link href="assets/css/animate.min.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,700|Karla:400,400i,700,700i" rel="stylesheet">
 
-    <!-- script -->
+    <!-- scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/quotes.js"></script>
     <script type="text/javascript" src="assets/js/functions.js"></script>
+    
+    <!-- FontAwesome - use just the brands and solid styles -->
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110221230-2"></script>
