@@ -27,6 +27,7 @@
 
     <!-- styles -->
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/team.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/skeleton-modified.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/animate.min.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,700|Karla:400,400i,700,700i" rel="stylesheet">

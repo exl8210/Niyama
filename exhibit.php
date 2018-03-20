@@ -1,7 +1,10 @@
 <?php include("header.php"); ?>
 
     <div class="row offset-by-one ten columns">
+        <!--
         <div style="width: 100%; height: 636px; border: 1px solid #232323">movie, gif, or still of our project, or gallery of final photos?</div>
+        -->
+        <div class="embed-container"><iframe src="https://player.vimeo.com/video/258041476" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
     </div>
 
     <div class="u-cf clear"></div>
@@ -15,11 +18,11 @@
     </div>
 
     <div class="u-cf clear"></div>
-
+    <!--
     <div class="row offset-by-two eight columns">
         <div style="width: 100%; height: 500px; border: 1px solid #232323">animated promotional video</div>
     </div>
-
+    -->
     <div class="u-cf large-vert-space"></div>
     <div class="u-cf large-vert-space"></div>
 
@@ -47,7 +50,10 @@
 
     <div class="row case-section">
         <div class="offset-by-one six columns">
+            <!--
             <div style="width: 100%; height: 400px; border: 1px solid #232323">diagram of the room</div>
+            -->
+            <img src="assets/media/full-room-mockup.png" style="width: 100%" />
         </div>
 
         <div class="six columns">
@@ -126,16 +132,19 @@
         </div>
 
         <div class="offset-by-one five columns">
+            <!--
             <div style="width: 100%; height: 300px; border: 1px solid #232323">product shot of takeaways</div>
+            -->
+            <img src="assets/media/exit-mockup.png" style="width: 100%" />
         </div>
     </div>
 
     <div class="u-cf clear"></div>
-
+    <!--
     <div class="u-max-width u-centre">
         <div style="width: 100%; height: 635px; border: 1px solid #232323">gallery of final footage/photos</div>
     </div>
-
+    -->
 
     <div class="u-cf clear"></div>
     <div class="u-cf clear"></div>
@@ -147,7 +156,8 @@
             
             <div class="large-vert-space"></div>
             
-            <a href="assets/media/niyama-deck.pdf" class="button">Our full process</a>
+            <!--<a href="assets/media/niyama-deck.pdf" class="button">Our full process</a>-->
+            <a href="https://www.youtube.com/watch?v=FDkwRRrOSYM" target="_blank" class="button">Our first pitch</a>
         </div>
     </div>
 

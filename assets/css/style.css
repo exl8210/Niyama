@@ -195,30 +195,6 @@ nav ul li a.current::after {
 }
 
 
-/* TEAM */
-
-.team-members {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.yolk-folk {
-    max-width: 100%;
-    height: 240px;
-    overflow: none;
-    background: #eee;
-    background-size: cover;
-}
-
-.ethelia {
-    background-image: url(https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/26685597_10212537989499461_329014727533073066_o.jpg?oh=ff582126422c4c332fc66970c21c4d88&oe=5B00FC01);
-}
-
-.ethelia:hover {
-    background-image: url(https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/26805275_10212508614805112_2799953444267163866_n.jpg?oh=48a9f5dcf16a1f94142c2351cec11afc&oe=5B0DB68E);
-}
-
-
 /* PAGE ELEMENTS */
 blockquote {
     font-family: "Comfortaa", sans-serif;
@@ -497,4 +473,23 @@ a.noHover {
 
 a.noHover:hover {
     border: 0;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

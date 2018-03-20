@@ -1,0 +1,98 @@
+/* TEAM */
+
+.team-members {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.yolk-folk {
+    max-width: 100%;
+    height: 240px;
+    overflow: none;
+    background: #eee;
+    background-size: cover;
+}
+
+.ethelia {
+    background-image: url(../media/team/ethelia.jpg);
+}
+/*
+.ethelia:hover {
+    background-image: url(../media/team/ethelia-hover.jpg);
+}
+*/
+
+.sara {
+    background-image: url(../media/team/sara.jpg);
+    background-position: center;
+}
+/*
+.sara:hover {
+    background-image: url(../media/team/sara-hover.jpg);
+}
+*/
+
+.alexis {
+    background-image: url(../media/team/alexis.jpg);
+    background-position: center;
+}
+/*
+.alexis:hover {
+    background-image: url(../media/team/alexis-hover.jpg);
+}
+*/
+
+.matt {
+    background-image: url(../media/team/matt.jpg);
+}
+/*
+.matt:hover {
+    background-image: url(../media/team/matt-hover.jpg);
+}
+*/
+
+.jialing {
+    background-image: url(../media/team/jialing.jpg);
+}
+/*
+.jialing:hover {
+    background-image: url(../media/team/jialing-hover.jpg);
+}
+*/
+
+.ashley {
+    background-image: url(../media/team/ashley.jpg);
+}
+/*
+.ashley:hover {
+    background-image: url(../media/team/ashley-hover.jpg);
+}
+*/
+
+.natalie {
+    background-image: url(../media/team/natalie.jpg);
+    background-position: bottom center;
+}
+/*
+.natalie:hover {
+    background-image: url(../media/team/natalie-hover.jpg);
+}
+*/
+
+.morgan {
+    background-image: url(../media/team/morgan.jpg);
+}
+/*
+.morgan:hover {
+    background-image: url(../media/team/morgan-hover.jpg);
+}
+*/
+
+.celina {
+    background-image: url(../media/team/celina.jpg);
+}
+/*
+.celina:hover {
+    background-image: url(../media/team/celina-hover.jpg);
+}
+*/

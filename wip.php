@@ -100,7 +100,7 @@
                 <!--Your modal content goes here-->
             </div>
         </div>
-        
+
         <div id="modal-lollipop">
             <div id="btn-close-modal" class="close-modal-lollipop">
                 CLOSE MODAL
@@ -110,7 +110,7 @@
                 <!--Your modal content goes here-->
             </div>
         </div>
-        
+
         <div id="modal-interrupt">
             <div id="btn-close-modal" class="close-modal-interrupt">
                 CLOSE MODAL
@@ -140,8 +140,8 @@
         <div class="u-cf large-vert-space"></div>
 
         <div class="offset-by-one ten columns">
-<!--            <div style="width: 100%; height: 636px; border: 1px solid #232323"> promotional video - animation, or final post-Imagine RIT cut</div>-->
-            <iframe src="https://player.vimeo.com/video/258041476" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <!--            <div style="width: 100%; height: 636px; border: 1px solid #232323"> promotional video - animation, or final post-Imagine RIT cut</div>-->
+            <div class="embed-container"><iframe src="https://player.vimeo.com/video/258041476" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
         </div>
 
         <div class="u-cf large-vert-space"></div>

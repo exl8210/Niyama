@@ -11,7 +11,10 @@
     <div class="u-cf small-vert-space"></div>
 
     <div class="row offset-by-one ten columns">
+        <!--
         <div style="width: 100%; height: 636px; border: 1px solid #232323">team photo</div>
+        -->
+        <img src="assets/media/team/team-photo-temp.jpg" style="width: 100%" />
     </div>
 
     <div class="u-cf clear"></div>

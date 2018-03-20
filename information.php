@@ -48,7 +48,7 @@
     <div class="u-cf"></div>
 
     <div class="offset-by-one three columns">
-        <a href="https://www.ted.com/talks/martin_seligman_on_the_state_of_psychology" target="_blank">
+        <a href="https://www.ted.com/talks/martin_seligman_on_the_state_of_psychology" target="_blank" class="noHover">
             <img src="assets/media/ted-talks/seligman.png" class="ted-screen" />
 
             <h3>The new era of positive psychology</h3>
@@ -57,7 +57,7 @@
     </div>
 
     <div class="offset-by-one three columns">
-        <a href="https://www.ted.com/talks/dan_gilbert_asks_why_are_we_happy" target="_blank">
+        <a href="https://www.ted.com/talks/dan_gilbert_asks_why_are_we_happy" target="_blank" class="noHover">
             <img src="assets/media/ted-talks/gilbert.png" class="ted-screen" />
 
             <h3>The surprising science of happiness</h3>
@@ -66,7 +66,7 @@
     </div>
 
     <div class="offset-by-one three columns">
-        <a href="https://www.tedmed.com/talks/show?id=526817" target="_blank">
+        <a href="https://www.tedmed.com/talks/show?id=526817" target="_blank" class="noHover">
             <img src="assets/media/ted-talks/stellar.png" class="ted-screen" />
 
             <h3>The positive effects of positive emotions</h3>
@@ -77,7 +77,7 @@
     <div class="u-cf large-vert-space"></div>
 
     <div class="offset-by-one three columns">
-        <a href="https://www.ted.com/talks/drew_dudley_everyday_leadership" target="_blank">
+        <a href="https://www.ted.com/talks/drew_dudley_everyday_leadership" target="_blank" class="noHover">
             <img src="assets/media/ted-talks/dudley.png" class="ted-screen" />
 
             <h3>Everyday leadership</h3>
@@ -86,7 +86,7 @@
     </div>
 
     <div class="offset-by-one three columns">
-        <a href="https://www.ted.com/talks/kio_stark_why_you_should_talk_to_strangers" target="_blank">
+        <a href="https://www.ted.com/talks/kio_stark_why_you_should_talk_to_strangers" target="_blank" class="noHover">
             <img src="assets/media/ted-talks/stark.png" class="ted-screen" />
 
             <h3>Why you should talk to strangers</h3>
