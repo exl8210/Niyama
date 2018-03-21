@@ -94,11 +94,18 @@
         <div class="remodal orange-theme" data-remodal-id="modal-butterfly" role="dialog" aria-labelledby="butterflyTitle" aria-describedby="butterflyDesc">
             <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
             <div class="remodal-content">
-                <div class="three-columns">
-                    <h1 id="butterflyTitle">A Butterfly Effect</h1>
-                    <p id="butterflyDesc">
-                        See how the butterfly effect applies to kindness.
-                    </p>
+                <h1 id="butterflyTitle">A Butterfly Effect</h1>
+                <div id="butterflyDesc" class="three-columns">
+                    <p>The butterfly effect is this idea that a single butterfly flapping its wings on one side of the globe can, in theory, start a hurricane on the other.
+                        
+                    <br />
+                        
+                    <a href="https://www.cbsnews.com/news/proving-the-butterfly-effect-with-a-single-act-of-kindness/" target="_blank">Proving the Butterfly Effect with a Single Act of Kindness</a>.</p>
+                    
+                    <br />
+                    
+                    <div style="max-width:854px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" src="https://www.youtube.com/embed/mo6fBAT8f-s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div></div>
+                    
                 </div>
             </div>
         </div>
@@ -106,15 +113,13 @@
         <div class="remodal purple-theme" data-remodal-id="modal-lollipop" role="dialog" aria-labelledby="lollipopTitle" aria-describedby="lollipopDesc">
             <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
             <div class="remodal-content">
-                <div class="three-columns">
-                    <h1 id="lollipopTitle">Lollipop Moments</h1>
-                    <div id="lollipopDesc">
-                        <p>A lollipop moment is a concept explained in Drew Dudley’s TED talk about everyday leadership. He explains how something as simple as giving someone a lollipop can have a huge influence on their life without you even knowing.</p>
-                        
-                        <blockquote>The butterfly effect is this idea that a single butterfly flapping its wings on one side of the globe can, in theory, start a hurricane on the other. It's a physics concept, but Rosati wondered if it could be applied to kindness as well.</blockquote>
+                <h1 id="lollipopTitle">Lollipop Moments</h1>
+                <div id="lollipopDesc">
+                    <p>A lollipop moment is a concept explained in Drew Dudley’s TED talk about everyday leadership. He explains how something as simple as giving someone a lollipop can have a huge influence on their life without you even knowing.</p>
 
-                        <p>Read the full story, <a href="https://www.cbsnews.com/news/proving-the-butterfly-effect-with-a-single-act-of-kindness/" target="_blank">Proving the Butterfly Effect with a Single Act of Kindness</a>.</p>
-                    </div>
+                    <br />
+                    
+                    <div style="max-width:854px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/drew_dudley_everyday_leadership" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
                 </div>
             </div>
         </div>
@@ -122,12 +127,14 @@
         <div class="remodal blue-theme" data-remodal-id="modal-interrupt" role="dialog" aria-labelledby="interruptTitle" aria-describedby="interruptDesc">
             <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
             <div class="remodal-content">
-                <div class="three-columns">
                     <h1 id="interruptTitle">Beautiful Interruption</h1>
-                    <p id="interruptDesc">
-                        In this delightful talk, Stark explores the overlooked benefits of pushing past our default discomfort when it comes to strangers and embracing those fleeting but profoundly beautiful moments of genuine connection.
-                    </p>
-                </div>
+                    <div id="interruptDesc">
+                        <p>In this delightful talk, Stark explores the overlooked benefits of pushing past our default discomfort when it comes to strangers and embracing those fleeting but profoundly beautiful moments of genuine connection.</p>
+                        
+                        <br />
+                        
+                        <div style="max-width:854px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/kio_stark_why_you_should_talk_to_strangers" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+                    </div>
             </div>
         </div>
 

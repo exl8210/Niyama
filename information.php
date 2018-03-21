@@ -42,7 +42,7 @@
 <!-- Talks -->
 <div class="row" id="ted-talks">
     <div class="offset-by-one five columns">
-        <h2>TED Talks</h2>
+        <h2>Talks</h2>
     </div>
 
     <div class="u-cf"></div>
@@ -92,6 +92,15 @@
             <h3>Why you should talk to strangers</h3>
         </a>
         <p>"When you talk to strangers, you're making beautiful interruptions into the expected narrative of your daily life -- and theirs," says Kio Stark. In this delightful talk, Stark explores the overlooked benefits of pushing past our default discomfort when it comes to strangers and embracing those fleeting but profoundly beautiful moments of genuine connection.</p>
+    </div>
+
+    <div class="offset-by-one three columns">
+        <a href="https://www.youtube.com/watch?v=mo6fBAT8f-s" target="_blank" class="noHover">
+            <img src="assets/media/ted-talks/andrews.png" class="ted-screen" />
+
+            <h3>The Butterfly Effect by Andy Andrews</h3>
+        </a>
+        <p>All of our choices matter. This speech by Andy Andrews is an amazing testiment to how we can positively or negatively effect those around us, even for generations.</p>
     </div>
 </div>
 
