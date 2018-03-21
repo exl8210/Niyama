@@ -37,7 +37,7 @@
             <a href="http://www.instagram.com/niyama2018/" class="noHover"><img class="social" src="assets/media/icons/ig@2x.png" /></a>
 
             <a href="http://niyama2018.tumblr.com/" class="noHover"><img class="social" src="assets/media/icons/tumblr@2x.png" /></a>
-            
+
             <a href="http://www.twitter.com/niyama2018" class="noHover"><img class="social" src="assets/media/icons/twitter@2x.png" /></a>
         </div>
 
@@ -46,14 +46,55 @@
 
 <script type="text/javascript" src="assets/js/animatedModal.min.js"></script>
 <script>
-    $("#card-butterfly").animatedModal({
-        modalTarget: 'modal-butterfly'
+    /*
+                $("#card-butterfly").animatedModal({
+                    modalTarget: 'modal-butterfly'
+                });
+                $("#card-lollipop").animatedModal({
+                    modalTarget: 'modal-lollipop'
+                });
+                $("#card-interrupt").animatedModal({
+                    modalTarget: 'modal-interrupt'
+                });
+                */
+//    window.REMODAL_GLOBALS = {
+//        NAMESPACE: 'remodal',
+//        DEFAULTS: {
+//
+//            hashTracking: true,
+//            closeOnConfirm: true,
+//            closeOnCancel: true,
+//            closeOnEscape: true,
+//            closeOnOutsideClick: true,
+//            modifier: ''
+//        }
+//    };
+
+    $('[data-remodal-id=modal-butterfly]').remodal({
+        hashTracking: true,
+        closeOnConfirm: true,
+        closeOnCancel: true,
+        closeOnEscape: true,
+        closeOnOutsideClick: true,
+        modifier: 'orange-theme'
     });
-    $("#card-lollipop").animatedModal({
-        modalTarget: 'modal-lollipop'
+
+    $('[data-remodal-id=modal-lollipop]').remodal({
+        hashTracking: true,
+        closeOnConfirm: true,
+        closeOnCancel: true,
+        closeOnEscape: true,
+        closeOnOutsideClick: true,
+        modifier: 'purple-theme'
     });
-    $("#card-interrupt").animatedModal({
-        modalTarget: 'modal-interrupt'
+
+    $('[data-remodal-id=modal-interrupt]').remodal({
+        hashTracking: true,
+        closeOnConfirm: true,
+        closeOnCancel: true,
+        closeOnEscape: true,
+        closeOnOutsideClick: true,
+        modifier: 'blue-theme'
     });
 
 </script>

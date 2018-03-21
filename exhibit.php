@@ -23,8 +23,7 @@
         <div style="width: 100%; height: 500px; border: 1px solid #232323">animated promotional video</div>
     </div>
     -->
-    <div class="u-cf large-vert-space"></div>
-    <div class="u-cf large-vert-space"></div>
+    <div class="u-cf clear"></div>
 
     <div class="row case-section">
         <div class="offset-by-one four columns">
@@ -146,7 +145,6 @@
     </div>
     -->
 
-    <div class="u-cf clear"></div>
     <div class="u-cf clear"></div>
 
     <div class="row">

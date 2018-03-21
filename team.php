@@ -169,7 +169,7 @@
                 <li>Lily Gallagher</li>
                 <li>Rebecca Congdon</li>
                 <li>John Scott</li>
-                <li>David Wieland</li>
+                <li>Ricky Bobola</li>
                 <li><a href="http://c-fund.us/f2k" target="_blank">More supporters</a></li>
             </ul>
         </div>

@@ -76,48 +76,58 @@
         <div class="u-cf large-vert-space"></div>
 
         <div class="offset-by-one ten columns" id="info-cards">
-            <a class="card" href="#modal-butterfly" id="card-butterfly">
+            <a class="card noHover" href="#modal-butterfly" id="card-butterfly">
                 <img class="icon" src="assets/media/icons/icon-butterfly@2x.png" />
                 <span>A Butterfly Effect</span>
             </a>
-            <a class="card" href="#modal-lollipop" id="card-lollipop">
+            <a class="card noHover" href="#modal-lollipop" id="card-lollipop">
                 <img class="icon" src="assets/media/icons/icon-lollipop@2x.png" />
                 <span>Lollipop Moments</span>
             </a>
-            <a class="card" href="#modal-interrupt" id="card-interrupt">
+            <a class="card noHover" href="#modal-interrupt" id="card-interrupt">
                 <img class="icon" src="assets/media/icons/icon-interruptions@2x.png" />
                 <span>Beautiful Interruptions</span>
             </a>
         </div>
 
         <!-- Info modals -->
-        <div id="modal-butterfly">
-            <div id="btn-close-modal" class="close-modal-butterfly">
-                CLOSE MODAL
-            </div>
-
-            <div class="modal-content">
-                <!--Your modal content goes here-->
-            </div>
-        </div>
-
-        <div id="modal-lollipop">
-            <div id="btn-close-modal" class="close-modal-lollipop">
-                CLOSE MODAL
-            </div>
-
-            <div class="modal-content">
-                <!--Your modal content goes here-->
+        <div class="remodal orange-theme" data-remodal-id="modal-butterfly" role="dialog" aria-labelledby="butterflyTitle" aria-describedby="butterflyDesc">
+            <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+            <div class="remodal-content">
+                <div class="three-columns">
+                    <h1 id="butterflyTitle">A Butterfly Effect</h1>
+                    <p id="butterflyDesc">
+                        See how the butterfly effect applies to kindness.
+                    </p>
+                </div>
             </div>
         </div>
 
-        <div id="modal-interrupt">
-            <div id="btn-close-modal" class="close-modal-interrupt">
-                CLOSE MODAL
-            </div>
+        <div class="remodal purple-theme" data-remodal-id="modal-lollipop" role="dialog" aria-labelledby="lollipopTitle" aria-describedby="lollipopDesc">
+            <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+            <div class="remodal-content">
+                <div class="three-columns">
+                    <h1 id="lollipopTitle">Lollipop Moments</h1>
+                    <div id="lollipopDesc">
+                        <p>A lollipop moment is a concept explained in Drew Dudley’s TED talk about everyday leadership. He explains how something as simple as giving someone a lollipop can have a huge influence on their life without you even knowing.</p>
+                        
+                        <blockquote>The butterfly effect is this idea that a single butterfly flapping its wings on one side of the globe can, in theory, start a hurricane on the other. It's a physics concept, but Rosati wondered if it could be applied to kindness as well.</blockquote>
 
-            <div class="modal-content">
-                <!--Your modal content goes here-->
+                        <p>Read the full story, <a href="https://www.cbsnews.com/news/proving-the-butterfly-effect-with-a-single-act-of-kindness/" target="_blank">Proving the Butterfly Effect with a Single Act of Kindness</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="remodal blue-theme" data-remodal-id="modal-interrupt" role="dialog" aria-labelledby="interruptTitle" aria-describedby="interruptDesc">
+            <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+            <div class="remodal-content">
+                <div class="three-columns">
+                    <h1 id="interruptTitle">Beautiful Interruption</h1>
+                    <p id="interruptDesc">
+                        In this delightful talk, Stark explores the overlooked benefits of pushing past our default discomfort when it comes to strangers and embracing those fleeting but profoundly beautiful moments of genuine connection.
+                    </p>
+                </div>
             </div>
         </div>
 
@@ -141,7 +151,9 @@
 
         <div class="offset-by-one ten columns">
             <!--            <div style="width: 100%; height: 636px; border: 1px solid #232323"> promotional video - animation, or final post-Imagine RIT cut</div>-->
-            <div class="embed-container"><iframe src="https://player.vimeo.com/video/258041476" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+            <div class="embed-container">
+                <iframe src="https://player.vimeo.com/video/258041476" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
         </div>
 
         <div class="u-cf large-vert-space"></div>

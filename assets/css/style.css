@@ -45,7 +45,7 @@ header {
 }
 
 footer {
-    background: url("http://niyama.cias.rit.edu/assets/media/bg-footer.svg") no-repeat center bottom;
+    background: url(../media/bg-footer.svg) no-repeat center bottom;
     background-size: contain;
 }
 
@@ -390,7 +390,7 @@ a:hover {
 
 #card-butterfly:hover {
     margin-top: -20px;
-    box-shadow: 0px 3px 10px rgba(255, 140, 100, 0.35);
+    box-shadow: 0px 6px 24px rgba(255, 140, 100, 0.35);
 }
 
 #card-lollipop {
@@ -400,7 +400,7 @@ a:hover {
 
 #card-lollipop:hover {
     margin-top: -20px;
-    box-shadow: 0px 3px 10px rgba(151, 123, 220, 0.35);
+    box-shadow: 0px 6px 24px rgba(151, 123, 220, 0.35);
 }
 
 #card-interrupt {
@@ -410,7 +410,30 @@ a:hover {
 
 #card-interrupt:hover {
     margin-top: -20px;
-    box-shadow: 0px 3px 10px rgba(90, 153, 246, .35);
+    box-shadow: 0px 6px 24px rgba(90, 153, 246, .35);
+}
+
+.remodal.orange-theme {
+    background: url(../media/bg-orange.png) no-repeat bottom center;
+    background-size: cover;
+}
+
+.remodal.purple-theme {
+    background: url(../media/bg-purple.png) no-repeat bottom center;
+    background-size: cover;
+}
+
+.remodal.purple-theme h1 {
+    color: #977bdc;
+}
+
+.remodal.blue-theme {
+    background: url(../media/bg-blue.png) no-repeat bottom center;
+    background-size: cover;
+}
+
+.remodal.blue-theme h1 {
+    color: #5a99f6;
 }
 
 ul {

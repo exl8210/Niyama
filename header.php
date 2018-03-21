@@ -30,12 +30,15 @@
     <link href="assets/css/team.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/skeleton-modified.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/animate.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/remodal-default-theme.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/remodal.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,700|Karla:400,400i,700,700i" rel="stylesheet">
 
     <!-- scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/quotes.js"></script>
     <script type="text/javascript" src="assets/js/functions.js"></script>
+    <script type="text/javascript" src="assets/js/remodal.js"></script>
     
     <!-- FontAwesome - use just the brands and solid styles -->
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js"></script>
