@@ -137,6 +137,7 @@
         <h2>Articles</h2>
 
         <ul>
+            <li><a href="https://www.randomactsofkindness.org/rak-week" target="_blank"><strong>#RAKWEEK2018</strong> – Random Acts of Kindness</a></li>
             <li><a href="https://www.psychologytoday.com/blog/cutting-edge-leadership/201206/there-s-magic-in-your-smile" target="_blank"><strong>There's Magic In Your Smile</strong> – Ronald E. Riggio Ph.D. (Psychology Today)</a>
             </li>
             <li><a href="https://www.cbsnews.com/news/proving-the-butterfly-effect-with-a-single-act-of-kindness/" target="_blank"><strong>Proving the butterfly effect with a single act of kindness</strong> – Steve Hartman (CNN)</a>

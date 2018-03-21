@@ -165,12 +165,12 @@
                 <li>Adam Smith</li>
                 <li>Sten McKinzie</li>
                 <li>Spencer Powell</li>
-                <li>Other</li>
-                <li>Major</li>
-                <li>Players</li>
-                <li>And</li>
-                <li>Top</li>
-                <li>Sponsors</li>
+                <li>Christopher Griffin</li>
+                <li>Lily Gallagher</li>
+                <li>Rebecca Congdon</li>
+                <li>John Scott</li>
+                <li>David Wieland</li>
+                <li><a href="http://c-fund.us/f2k" target="_blank">More supporters</a></li>
             </ul>
         </div>
     </div>
