@@ -59,7 +59,7 @@ $(document).ready(function () {
     // happy
     $("#happy-button").click(function () {
         mood = "happy";
-        yolkImg = "assets/media/yolks/L-happy.svg";
+        yolkImg = "assets/media/yolks/R-happy.svg";
         $('#end-yolk').prepend('<img id="happy-yolk" src="' + yolkImg + '" />')
         happyQuote(mood);
         loadContent();
@@ -68,7 +68,7 @@ $(document).ready(function () {
 
     $("#neutral-button").click(function () {
         mood = "neutral";
-        yolkImg = "assets/media/yolks/R-happy.svg";
+        yolkImg = "assets/media/yolks/L-happy.svg";
         $('#end-yolk').prepend('<img id="alright-yolk" src="' + yolkImg + '" />')
         happyQuote(mood);
         loadContent();
@@ -188,7 +188,14 @@ $(document).ready(function () {
     */
 
     switch (pageName[0]) {
-        case 'wip':
+        case '':
+            $("body").css({
+                "background": "#fcfcfc url(\"http://niyama.cias.rit.edu/assets/media/bg-yellow-gradient.svg\") no-repeat",
+                "background-size": "100%"
+            });
+            break;
+            
+        case 'index':
             $("body").css({
                 "background": "#fcfcfc url(\"http://niyama.cias.rit.edu/assets/media/bg-yellow-gradient.svg\") no-repeat",
                 "background-size": "100%"
