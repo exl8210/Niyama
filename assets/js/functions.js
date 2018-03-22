@@ -251,7 +251,7 @@ $(document).ready(function () {
         FB.ui({
             method: 'feed',
             link: 'https://niyama.cias.rit.edu/',
-            quote: "\"" + quote + "\" – " + author,
+            quote: "\"" + quote + "\"  " + author + "\n\nCome interact with curious little characters, Yolks, and help spread happiness through their world! Niyama's exhibit at Imagine RIT is a fun, engaging, interactive simulation that shows how small gestures can have a great influence in the world.",
         }, function (response) {});
 
         console.log("shareFB link clicked");
@@ -260,7 +260,7 @@ $(document).ready(function () {
     $("#shareTwitter").click(function () {
         console.log("shareTwitter link clicked");
 
-        var url = "https://twitter.com/intent/tweet?url=http%3A%2F%2Fniyama.cias.rit.edu%2F&text=\"" + quote + "\" – " + author + " // ";
+        var url = "https://twitter.com/intent/tweet?url=http%3A%2F%2Fniyama.cias.rit.edu%2F&text=\"" + quote + "\"  " + author + " // ";
 
         window.open(url);
     });
