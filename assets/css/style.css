@@ -80,6 +80,30 @@ footer {
     border: 0;
 }
 
+#happy-yolk {
+    max-height: 18vw !important;
+}
+
+#alright-yolk {
+    max-height: 15vw !important;
+}
+
+#tapMe {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #f2667a;
+    display: block;
+    margin: 20px auto 0;
+    width: 160px;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+#tapMe.pre-tap {
+    opacity: 0;
+}
+
 #share-button {
     background: linear-gradient(to right, #F2667A,#FF8C64);
     color: #fff;
@@ -477,15 +501,31 @@ footer li {
     margin-bottom: 5px;
 }
 
-#rit-logos {
+#rit-logos, #sponsors {
     display: flex;
     align-items: center;
 }
 
+#rit-logos {
+    justify-content: center;
+}
+
 .school-logo {
-    max-width: 120px;
-    max-height: 60px;
+    max-width: 100px;
+    max-height: 40px;
     margin-right: 25px;
+    opacity: .3;
+    transition: opacity 0.3s ease;
+}
+
+.school-logo:hover {
+    opacity: 1;
+}
+
+.big-logo {
+    max-width: 240px;
+    max-height: 80px;
+    margin-right: 40px;
 }
 
 #thanks {

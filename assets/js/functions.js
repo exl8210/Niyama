@@ -1,7 +1,7 @@
 "use strict";
 
 // variable to store quote
-var mood, heading, quote, author, max;
+var mood, heading, quote, author, max, yolkImg;
 
 
 $(document).ready(function () {
@@ -55,10 +55,12 @@ $(document).ready(function () {
     /*
         Actions after user selects their mood
     */
-
+    
     // happy
     $("#happy-button").click(function () {
         mood = "happy";
+        yolkImg = "assets/media/yolks/L-happy.svg";
+        $('#end-yolk').prepend('<img id="happy-yolk" src="' + yolkImg + '" />')
         happyQuote(mood);
         loadContent();
         console.log(mood);
@@ -66,6 +68,8 @@ $(document).ready(function () {
 
     $("#neutral-button").click(function () {
         mood = "neutral";
+        yolkImg = "assets/media/yolks/R-happy.svg";
+        $('#end-yolk').prepend('<img id="alright-yolk" src="' + yolkImg + '" />')
         happyQuote(mood);
         loadContent();
         console.log(mood);
@@ -73,6 +77,8 @@ $(document).ready(function () {
 
     $("#sad-button").click(function () {
         mood = "sad";
+        yolkImg = "assets/media/yolks/hug.svg";
+        $('#end-yolk').prepend('<img src="' + yolkImg + '" />')
         sadQuote();
         loadContent();
         console.log(mood);
@@ -121,6 +127,7 @@ $(document).ready(function () {
 
         setTimeout(function () {
             $("footer").fadeIn();
+            $("#tapMe").removeClass("pre-tap");
         }, 1200);
     }
 

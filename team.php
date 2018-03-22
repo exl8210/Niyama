@@ -164,12 +164,8 @@
             <ul id="thank-people">
                 <li>Adam Smith</li>
                 <li>Sten McKinzie</li>
-                <li>Spencer Powell</li>
-                <li>Christopher Griffin</li>
-                <li>Lily Gallagher</li>
-                <li>Rebecca Congdon</li>
-                <li>John Scott</li>
-                <li>Ricky Bobola</li>
+                <li><a href="http://livethelodge.com/" target="_blank">The Lodge</a></li>
+                <li><a href="https://philippefaraut.com/" target="_blank">PCF Studios</a></li>
                 <li><a href="http://c-fund.us/f2k" target="_blank">More supporters</a></li>
             </ul>
         </div>

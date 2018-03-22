@@ -39,6 +39,7 @@
     <script type="text/javascript" src="assets/js/quotes.js"></script>
     <script type="text/javascript" src="assets/js/functions.js"></script>
     <script type="text/javascript" src="assets/js/remodal.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.arctext.js"></script>
     
     <!-- FontAwesome - use just the brands and solid styles -->
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js"></script>

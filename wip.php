@@ -3,9 +3,11 @@
     <!-- Yolk Quotes -->
     <div class="row" id="yolk-container">
         <div class="offset-by-one four columns" id="yolk">
-            <img id="init-yolk" src="assets/media/wave.svg" />
+            <img id="init-yolk" src="assets/media/yolks/wave.svg" />
 
-            <a id="end-yolk"><img src="assets/media/L-happy.svg" /></a>
+            <a id="end-yolk"><!--<img src="assets/media/yolks/L-happy.svg" />--></a>
+            
+            <a id="tapMe" class="pre-tap noHover">Give me a poke!</a>
         </div>
 
         <div class="six columns" id="yolk-intro">
@@ -95,7 +97,7 @@
             <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
             <div class="remodal-content">
                 <h1 id="butterflyTitle">A Butterfly Effect</h1>
-                <div id="butterflyDesc" class="three-columns">
+                <div id="butterflyDesc">
                     <p>The butterfly effect is this idea that a single butterfly flapping its wings on one side of the globe can, in theory, start a hurricane on the other.
                         
                     <br />

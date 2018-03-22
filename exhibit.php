@@ -4,7 +4,9 @@
         <!--
         <div style="width: 100%; height: 636px; border: 1px solid #232323">movie, gif, or still of our project, or gallery of final photos?</div>
         -->
-        <div class="embed-container"><iframe src="https://player.vimeo.com/video/258041476" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+        <div class="embed-container">
+            <iframe src="https://player.vimeo.com/video/258041476" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
     </div>
 
     <div class="u-cf clear"></div>
@@ -40,9 +42,21 @@
         </div>
 
         <div class="six columns">
+            <!--
             <div style="width: 100%; height: 400px; border: 1px solid #232323">infographic</div>
+            -->
+            <a href="#modal-infographic"><img src="assets/media/Infographic_web.png" style="width: 100%" /></a>
         </div>
     </div>
+
+
+    <div class="remodal" data-remodal-id="modal-infographic" role="dialog">
+        <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+        <div class="remodal-content">
+            <img src="assets/media/infographic1.png" style="width: 100%" />
+        </div>
+    </div>
+
 
     <div class="u-cf large-vert-space"></div>
     <div class="u-cf large-vert-space"></div>
@@ -71,7 +85,6 @@
     </div>
 
     <div class="u-cf large-vert-space"></div>
-    <div class="u-cf large-vert-space"></div>
 
     <div class="row case-section">
         <div class="offset-by-two three columns">
@@ -80,15 +93,27 @@
         </div>
 
         <div class="offset-by-one four columns">
-            <div style="width: 100%; height: 300px; border: 1px solid #232323">animation: states of yolk happiness (sad yolk --> user interaction --> happy yolk)</div>
+            <!--
+            <div style="width: 100%; height: 300px; border: 1px solid #232323">animation: states of yolk happiness (sad yolk -> user interaction -> happy yolk)</div>
+            -->
+
+            <video width="480" height="480" autoplay loop>
+                <source src="assets/media/moods-proto.mp4" type="video/mp4"> Your browser does not support the video tag.
+            </video>
         </div>
     </div>
 
-    <div class="u-cf clear"></div>
+    <div class="u-cf small-vert-space"></div>
 
     <div class="row case-section">
         <div class="offset-by-two four columns">
-            <div style="width: 100%; height: 300px; border: 1px solid #232323">animation: ripple effect (newly happy yolk --> makes another yolk happy)</div>
+            <!--
+            <div style="width: 100%; height: 300px; border: 1px solid #232323">animation: ripple effect (newly happy yolk -> makes another yolk happy)</div>
+            -->
+
+            <video width="480" height="480" autoplay loop>
+                <source src="assets/media/ripple-proto.mp4" type="video/mp4"> Your browser does not support the video tag.
+            </video>
         </div>
 
         <div class="offset-by-one three columns">
@@ -100,26 +125,32 @@
     <div class="u-cf clear"></div>
 
     <div class="row case-section">
-        <div class="offset-by-two three columns">
+        <div class="offset-by-one three columns">
             <h2>Take a moment to reflect</h2>
             <p>Wander around the exhibit and take in the ambience and the environment.</p>
         </div>
 
-        <div class="offset-by-one four columns">
+        <div class="offset-by-one six columns">
+            <!--
             <div style="width: 100%; height: 300px; border: 1px solid #232323">exhibit (could be a video of lights changing, photo of entryway/exit prompts)</div>
+            -->
+            <img src="assets/media/interaction-space-v3.png" style="width: 100%" />
         </div>
     </div>
 
     <div class="u-cf clear"></div>
 
     <div class="row case-section">
-        <div class="offset-by-two four columns">
+        <div class="seven columns">
+            <!--
             <div style="width: 100%; height: 300px; border: 1px solid #232323">photo: tangible (product shots)</div>
+            -->
+            <img src="assets/media/product-sketches.jpg" style="width: 100%" />
         </div>
 
         <div class="offset-by-one three columns">
             <h2>Interact with Yolks beyond the exhibit</h2>
-            <p>[Something about the silicone yolk buddy and the huggable pillow]</p>
+            <p>Take your virtual positivity into the real world with our line of products.</p>
         </div>
     </div>
 
@@ -151,9 +182,9 @@
         <div class="offset-by-four four columns u-centre">
             <h1>Making positive connections</h1>
             <p>At the end of the day, we seek to be memorable and to inspire a ripple effect of positive influence. We can see this experience being extended to other event spaces, and a concept worthy of awards.</p>
-            
+
             <div class="large-vert-space"></div>
-            
+
             <!--<a href="assets/media/niyama-deck.pdf" class="button">Our full process</a>-->
             <a href="https://www.youtube.com/watch?v=FDkwRRrOSYM" target="_blank" class="button">Our first pitch</a>
         </div>
