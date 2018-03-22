@@ -251,7 +251,7 @@ $(document).ready(function () {
         FB.ui({
             method: 'feed',
             link: 'https://niyama.cias.rit.edu/',
-            caption: "\"" + quote + "\" – " + author,
+            quote: "\"" + quote + "\" – " + author,
         }, function (response) {});
 
         console.log("shareFB link clicked");
