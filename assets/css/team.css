@@ -81,6 +81,7 @@
 
 .morgan {
     background-image: url(../media/team/morgan.jpg);
+    background-position: center;
 }
 /*
 .morgan:hover {

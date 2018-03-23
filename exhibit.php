@@ -116,7 +116,7 @@
             </video>
         </div>
 
-        <div class="offset-by-one three columns">
+        <div class="offset-by-two three columns">
             <h2>Watch it spread happiness</h2>
             <p>Your little gesture is passed on to other Yolks in the environment!</p>
         </div>

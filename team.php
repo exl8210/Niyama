@@ -76,7 +76,7 @@
                 <h2>Matt Gallagher</h2>
                 <h3>Motion Designer</h3>
 
-                <p>SNapchat filter connoisseur</p>
+                <p>Snapchat filter connoisseur</p>
 
                 <p><a href="http://mattgdesign.com/" target="_blank">mattgdesign.com</a></p>
             </div>

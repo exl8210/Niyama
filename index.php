@@ -54,19 +54,7 @@
         </div>
     </div>
 
-    <!-- <div class="u-cf large-vert-space"></div>
-
-    Welcome to Niyama
-    <div class="row" id="welcome">
-        <div class="offset-by-four u-centre four columns">
-            <h1>Niyama</h1>
-            <p><strong>नियम</strong>
-                <br /><em>Positive duties or observances.</em></p>
-            <p style="text-align: left;">Life isn't always rainbows and butterflies, and that's okay. Niyama is a reminder that <strong>every positive connection makes a difference</strong>, not only to the people you are kind to, but also to yourself. </p>
-        </div>
-    </div> -->
-
-    <div class="u-cf clear"></div>
+    <div class="u-cf clear load-in-clear" style="display: none"></div>
 
     <!-- Did you know -->
     <div class="row" id="did-you-know">
@@ -147,7 +135,7 @@
         </div>
     </div>
 
-    <div class="u-cf clear"></div>
+    <div class="u-cf clear load-in-clear" style="display: none"></div>
 
     <!-- Exhibit intro -->
     <div class="row" id="exhibit-intro">

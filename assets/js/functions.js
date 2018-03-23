@@ -100,6 +100,7 @@ $(document).ready(function () {
         $("#yolk-intro").fadeOut();
         $("#init-yolk").fadeOut();
         $("footer").fadeOut();
+        $(".load-in-clear").fadeIn();
 
         setTimeout(function () {
             $("#yolk-quote").fadeIn();
@@ -111,6 +112,7 @@ $(document).ready(function () {
         }, 800);
 
         setTimeout(function () {
+            $(".load-in-clear").fadeIn();
             $("#welcome").fadeIn().animate({
                 marginTop: "-20px",
                 opacity: 1
