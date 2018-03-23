@@ -2,7 +2,7 @@
 
     <!-- Yolk Quotes -->
     <div class="row" id="yolk-container">
-        <div class="offset-by-one four columns" id="yolk">
+        <div class="four columns" id="yolk">
             <img id="init-yolk" src="assets/media/yolks/wave.svg" />
 
             <a id="end-yolk"><!--<img src="assets/media/yolks/L-happy.svg" />--></a>
@@ -10,7 +10,7 @@
             <a id="tapMe" class="pre-tap noHover">Give me a poke!</a>
         </div>
 
-        <div class="six columns" id="yolk-intro">
+        <div class="offset-by-one eight columns" id="yolk-intro">
             <h2>Hi, I'm Yolk!</h2>
 
             <blockquote>
@@ -26,7 +26,7 @@
 
         <div class="u-cf"></div>
 
-        <div class="six columns" id="yolk-quote">
+        <div class="offset-by-one eight columns" id="yolk-quote">
             <h2 id="quoteHeading">I’m so happy to hear that!</h2>
 
             <blockquote>
@@ -54,18 +54,18 @@
         </div>
     </div>
 
-    <div class="u-cf clear load-in-clear" style="display: none"></div>
+    <div class="u-cf clear"></div>
 
     <!-- Did you know -->
     <div class="row" id="did-you-know">
-        <div class="offset-by-one four columns" id="difference-intro">
+        <div class="four columns">
             <h2>Small things make a difference!</h2>
             <p>We interact with approximately <strong>80,000 people</strong> in a lifetime, but we tend to be unaware of how impactful small positive gestures have on others.</p>
         </div>
 
         <div class="u-cf large-vert-space"></div>
 
-        <div class="offset-by-one ten columns" id="info-cards">
+        <div class="twelve columns" id="info-cards">
             <a class="card noHover" href="#modal-butterfly" id="card-butterfly">
                 <img class="icon" src="assets/media/icons/icon-butterfly@2x.png" />
                 <span>A Butterfly Effect</span>
@@ -135,18 +135,18 @@
         </div>
     </div>
 
-    <div class="u-cf clear load-in-clear" style="display: none"></div>
+    <div class="u-cf clear"></div>
 
     <!-- Exhibit intro -->
     <div class="row" id="exhibit-intro">
-        <div class="offset-by-one four columns" id="exhibit-intro-text">
+        <div class="four columns">
             <h2>Our exhibit aims to set an example.</h2>
             <p>In April 2018, a group of nine designers and developers from the Rochester Institute of Technology's New Media and Industrial Design programmes created a fun, engaging, interactive simulation that shows how <strong>small gestures have a great influence</strong>.</p>
         </div>
 
         <div class="u-cf large-vert-space"></div>
 
-        <div class="offset-by-one ten columns" id="home-video">
+        <div class="twelve columns">
             <!--            <div style="width: 100%; height: 636px; border: 1px solid #232323"> promotional video - animation, or final post-Imagine RIT cut</div>-->
             <div class="embed-container">
                 <iframe src="https://player.vimeo.com/video/258041476" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

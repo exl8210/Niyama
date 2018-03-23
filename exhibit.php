@@ -41,7 +41,7 @@
             <a href="information.php" class="button">More about positivity</a>
         </div>
 
-        <div class="six columns">
+        <div class="offset-by-one six columns">
             <!--
             <div style="width: 100%; height: 400px; border: 1px solid #232323">infographic</div>
             -->
@@ -87,7 +87,7 @@
     <div class="u-cf large-vert-space"></div>
 
     <div class="row case-section">
-        <div class="offset-by-two three columns">
+        <div class="offset-by-one four columns">
             <h2>Be positive to a Yolk</h2>
             <p>Give sad Yolks a little smile, hug, or high five, and see what happens...</p>
         </div>
@@ -103,10 +103,10 @@
         </div>
     </div>
 
-    <div class="u-cf small-vert-space"></div>
+    <div class="u-cf"></div>
 
     <div class="row case-section">
-        <div class="offset-by-two four columns">
+        <div class="offset-by-one four columns">
             <!--
             <div style="width: 100%; height: 300px; border: 1px solid #232323">animation: ripple effect (newly happy yolk -> makes another yolk happy)</div>
             -->
@@ -116,7 +116,7 @@
             </video>
         </div>
 
-        <div class="offset-by-two three columns">
+        <div class="offset-by-two four columns">
             <h2>Watch it spread happiness</h2>
             <p>Your little gesture is passed on to other Yolks in the environment!</p>
         </div>
@@ -125,12 +125,12 @@
     <div class="u-cf clear"></div>
 
     <div class="row case-section">
-        <div class="offset-by-one three columns">
+        <div class="offset-by-one four columns">
             <h2>Take a moment to reflect</h2>
             <p>Wander around the exhibit and take in the ambience and the environment.</p>
         </div>
 
-        <div class="offset-by-one six columns">
+        <div class="six columns">
             <!--
             <div style="width: 100%; height: 300px; border: 1px solid #232323">exhibit (could be a video of lights changing, photo of entryway/exit prompts)</div>
             -->
@@ -148,8 +148,8 @@
             <img src="assets/media/product-sketches.jpg" style="width: 100%" />
         </div>
 
-        <div class="offset-by-one three columns">
-            <h2>Interact with Yolks beyond the exhibit</h2>
+        <div class="four columns">
+            <h2>Interact with Yolks<br />beyond the exhibit</h2>
             <p>Take your virtual positivity into the real world with our line of products.</p>
         </div>
     </div>
@@ -161,7 +161,7 @@
             <h1>How will you spread happiness today?</h1>
         </div>
 
-        <div class="offset-by-one five columns">
+        <div class="offset-by-two five columns">
             <!--
             <div style="width: 100%; height: 300px; border: 1px solid #232323">product shot of takeaways</div>
             -->

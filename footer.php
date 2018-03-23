@@ -24,7 +24,7 @@
         
         <div class="u-cf"></div>
 
-        <div class="offset-by-one eight columns">
+        <div class="offset-by-one eight columns" id="footer-intro">
             <h1>Negativity spreads fast.<br />
                 Help spread positivity faster.</h1> <span class="attr">Copyright &copy; 2018. Niyama &hearts;</span>
 

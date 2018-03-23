@@ -27,7 +27,7 @@
         <p>Headspace is a digital service that provides guided meditation sessions and mindfulness training. Its content can be accessed online, or via their mobile apps.</p>
     </div>
 
-    <div class="offset-by-one five columns">
+    <div class="five columns">
         <a href="https://www.happify.com/" target="_blank">
             <img src="assets/media/apps/happify.jpg" class="u-pull-left info-icon" />
 

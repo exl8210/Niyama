@@ -5,11 +5,18 @@ var mood, heading, quote, author, max, yolkImg;
 
 
 $(document).ready(function () {
-    $("body").animate({
-        opacity: 1,
-        marginTop: '0px'
-    }, 280);
+    // run breakpoint check before anything happens
+    $.when(checkBreakpoints()).done(function () {
+        $("body").animate({
+            opacity: 1,
+            marginTop: '0px'
+        }, 280);
+    });
 
+    //    $("body").animate({
+    //        opacity: 1,
+    //        marginTop: '0px'
+    //    }, 280);
 
     /*
         Select from array of quotes
@@ -55,7 +62,7 @@ $(document).ready(function () {
     /*
         Actions after user selects their mood
     */
-    
+
     // happy
     $("#happy-button").click(function () {
         mood = "happy";
@@ -196,7 +203,7 @@ $(document).ready(function () {
                 "background-size": "100%"
             });
             break;
-            
+
         case 'index':
             $("body").css({
                 "background": "#fcfcfc url(\"http://niyama.cias.rit.edu/assets/media/bg-yellow-gradient.svg\") no-repeat",
