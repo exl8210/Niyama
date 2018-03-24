@@ -32,7 +32,7 @@
 
     <!-- Real Stories -->
     <div class="row" id="stories-intro">
-        <div class="offset-by-one four columns">
+        <div class="offset-by-one four columns" id="stories-intro-text">
             <h1>Real Stories</h1>
             <p>We compiled stories from real people, before and after our Imagine RIT exhibit, about how acts of kindness made their days.</p>
             <p>At the moment, sourced from <a href="http://www.randomactsofkindness.org" target="_blank">Random Acts of Kindness</a>, <a href="https://www.rd.com/true-stories/inspiring/kindness-strangers/" target="_blank">Reader's Digest</a>, and <a href="http://www.filtercopy.com/10-honest-short-stories-that-will-make-your-heart-melt-2473424234.html" target="_blank">Filter Copy</a></p>
@@ -42,7 +42,7 @@
     <div class="u-cf small-vert-space"></div>
 
     <div id="stories" class="pre-show">
-        <div class="row grid offset-by-one ten columns">
+        <div class="row grid offset-by-one ten columns" id="stories-container">
             <div class="story">
                 <div class="story-content">
                     <h2>The Man at the Market</h2>

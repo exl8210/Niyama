@@ -2,7 +2,7 @@
 
     <!-- The Team -->
     <div class="row" id="team-intro">
-        <div class="offset-by-one four columns">
+        <div class="offset-by-one four columns" id="team-intro-text">
             <h1>The Yolk Folk</h1>
             <p>We are a team of 7 designers and 2 developers, eager to make a positive impact.</p>
         </div>
@@ -10,7 +10,7 @@
 
     <div class="u-cf small-vert-space"></div>
 
-    <div class="row offset-by-one ten columns">
+    <div class="row offset-by-one ten columns" id="team-group-photo">
         <!--
         <div style="width: 100%; height: 636px; border: 1px solid #232323">team photo</div>
         -->
@@ -20,8 +20,8 @@
     <div class="u-cf clear"></div>
 
     <div class="row" id="team">
-        <div class="offset-by-one ten columns team-members">
-            <div class="three columns">
+        <div class="offset-by-one ten columns" id="team-members">
+            <div class="member">
                 <div class="yolk-folk ethelia"></div>
 
                 <br />
@@ -35,7 +35,7 @@
                 <p><a href="http://ethelialung.com/" target="_blank">ethelialung.com</a></p>
             </div>
 
-            <div class="three columns">
+            <div class="member">
                 <div class="yolk-folk sara"></div>
 
                 <br />
@@ -49,7 +49,7 @@
                 <p><a href="http://saraartese.com/" target="_blank">saraartese.com</a></p>
             </div>
 
-            <div class="three columns">
+            <div class="member">
                 <div class="yolk-folk alexis"></div>
 
                 <br />
@@ -62,12 +62,8 @@
 
                 <p><a href="http://www.alexisfaraut.com/" target="_blank">alexisfaraut.com</a></p>
             </div>
-        </div>
-        
-        <div class="u-cf large-vert-space"></div>
-
-        <div class="offset-by-one ten columns team-members">
-            <div class="three columns">
+            
+            <div class="member">
                 <div class="yolk-folk matt"></div>
 
                 <br />
@@ -81,7 +77,7 @@
                 <p><a href="http://mattgdesign.com/" target="_blank">mattgdesign.com</a></p>
             </div>
 
-            <div class="three columns">
+            <div class="member">
                 <div class="yolk-folk jialing"></div>
 
                 <br />
@@ -95,7 +91,7 @@
                 <p><a href="http://jialingchen.me/" target="_blank">jialingchen.me</a></p>
             </div>
 
-            <div class="three columns">
+            <div class="member">
                 <div class="yolk-folk ashley"></div>
 
                 <br />
@@ -106,12 +102,8 @@
 
                 <p>Green hurr don't curr</p>
             </div>
-        </div>
-        
-        <div class="u-cf large-vert-space"></div>
-
-        <div class="offset-by-one ten columns team-members">
-            <div class="three columns">
+            
+            <div class="member">
                 <div class="yolk-folk natalie"></div>
 
                 <br />
@@ -125,7 +117,7 @@
                 <p><a href="http://nataliemagee.co/" target="_blank">nataliemagee.co</a></p>
             </div>
 
-            <div class="three columns">
+            <div class="member">
                 <div class="yolk-folk morgan"></div>
 
                 <br />
@@ -139,7 +131,7 @@
                 <p><a href="https://mxm3995.myportfolio.com/" target="_blank">mxm3995.myportfolio.com</a></p>
             </div>
 
-            <div class="three columns">
+            <div class="member">
                 <div class="yolk-folk celina"></div>
 
                 <br />

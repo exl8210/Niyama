@@ -1,6 +1,6 @@
 <?php include("header.php"); ?>
 
-    <div class="row offset-by-one ten columns">
+    <div class="row offset-by-one ten columns" id="exhibit-hero-video">
         <!--
         <div style="width: 100%; height: 636px; border: 1px solid #232323">movie, gif, or still of our project, or gallery of final photos?</div>
         -->
@@ -13,7 +13,7 @@
     <div class="u-cf clear"></div>
 
     <div class="row" id="case-statements">
-        <div class="offset-by-three six columns u-centre">
+        <div class="offset-by-three six columns u-centre" id="exhibit-statement">
             <h1>How can we promote mutual well-being in our community?</h1>
             <h2>Through immersing visitors in a simulation of <strong>the ripple effects of positivity</strong>, we'll encourage them to <strong>translate those positive interactions into their daily lives</strong>.</h2>
         </div>
@@ -28,7 +28,7 @@
     <div class="u-cf clear"></div>
 
     <div class="row case-section">
-        <div class="offset-by-one four columns">
+        <div class="offset-by-one four columns" id="exhibit-dyk">
             <h2>Did you know?</h2>
             <p>Throughout our lifetime we interact with approximately 80,000 people, but we tend to be unaware of the impact those interactions have on others.</p>
 
@@ -41,7 +41,7 @@
             <a href="information.php" class="button">More about positivity</a>
         </div>
 
-        <div class="offset-by-one six columns">
+        <div class="offset-by-one six columns" id="exhibit-infographic">
             <!--
             <div style="width: 100%; height: 400px; border: 1px solid #232323">infographic</div>
             -->
@@ -62,7 +62,7 @@
     <div class="u-cf large-vert-space"></div>
 
     <div class="row case-section">
-        <div class="offset-by-one six columns">
+        <div class="offset-by-one six columns" id="exhibit-mockup">
             <!--
             <div style="width: 100%; height: 400px; border: 1px solid #232323">diagram of the room</div>
             -->
@@ -87,7 +87,7 @@
     <div class="u-cf large-vert-space"></div>
 
     <div class="row case-section">
-        <div class="offset-by-one four columns">
+        <div class="offset-by-one four columns" id="exhibit-1">
             <h2>Be positive to a Yolk</h2>
             <p>Give sad Yolks a little smile, hug, or high five, and see what happens...</p>
         </div>
@@ -106,7 +106,7 @@
     <div class="u-cf"></div>
 
     <div class="row case-section">
-        <div class="offset-by-one four columns">
+        <div class="offset-by-one four columns" id="exhibit-2">
             <!--
             <div style="width: 100%; height: 300px; border: 1px solid #232323">animation: ripple effect (newly happy yolk -> makes another yolk happy)</div>
             -->
@@ -125,12 +125,12 @@
     <div class="u-cf clear"></div>
 
     <div class="row case-section">
-        <div class="offset-by-one four columns">
+        <div class="offset-by-one four columns" id="exhibit-3">
             <h2>Take a moment to reflect</h2>
             <p>Wander around the exhibit and take in the ambience and the environment.</p>
         </div>
 
-        <div class="six columns">
+        <div class="offset-by-one six columns">
             <!--
             <div style="width: 100%; height: 300px; border: 1px solid #232323">exhibit (could be a video of lights changing, photo of entryway/exit prompts)</div>
             -->
@@ -157,11 +157,11 @@
     <div class="u-cf clear"></div>
 
     <div class="row case-section">
-        <div class="offset-by-one four columns">
+        <div class="offset-by-one four columns" id="exhibit-exit-prompt">
             <h1>How will you spread happiness today?</h1>
         </div>
 
-        <div class="offset-by-two five columns">
+        <div class="offset-by-one six columns">
             <!--
             <div style="width: 100%; height: 300px; border: 1px solid #232323">product shot of takeaways</div>
             -->
@@ -179,7 +179,7 @@
     <div class="u-cf clear"></div>
 
     <div class="row">
-        <div class="offset-by-four four columns u-centre">
+        <div class="offset-by-four four columns u-centre" id="exhibit-summary">
             <h1>Making positive connections</h1>
             <p>At the end of the day, we seek to be memorable and to inspire a ripple effect of positive influence. We can see this experience being extended to other event spaces, and a concept worthy of awards.</p>
 
