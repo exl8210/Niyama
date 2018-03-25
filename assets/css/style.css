@@ -170,7 +170,7 @@ footer {
     justify-content: center;
     text-align: center;
     cursor: pointer;
-    margin: 0 10px 20px;
+    margin: 0 10px 30px;
     box-shadow: none;
 }
 
@@ -259,12 +259,15 @@ nav {
     width: 100%;
     height: auto;
     text-align: right;
-    opacity: 1;
-    margin-top: 10px;
-    transition: background-image 0.2s ease, opacity 0.5s ease, margin-top 0.5s ease;
 }
 
-nav.pre-nav {
+nav ul {
+    opacity: 1;
+    margin-top: 10px;
+    transition: opacity 0.5s ease, margin-top 0.5s ease;
+}
+
+.pre-nav {
     opacity: 0;
     margin-top: -40px;
 }
@@ -283,10 +286,6 @@ nav ul li {
     vertical-align: middle;
     width: auto;
     text-align: left;
-}
-
-nav ul li.shorter {
-    width: 80px;
 }
 
 nav ul li a {
@@ -325,7 +324,7 @@ nav ul li a::after {
 
 nav ul li a:hover::after {
     width: 100%;
-    background-color: #f2667a;
+    background-color: #F2667A;
 }
 
 nav ul li a.current {
@@ -492,6 +491,10 @@ li {
     margin-bottom: 5px;
 }
 
+ul li {
+    margin-bottom: 20px;
+}
+
 .social {
     max-height: 30px;
     margin: 0 20px 15px 0;
@@ -515,10 +518,6 @@ li {
 .info-icon, .ted-screen, .book-icon {
     margin-right: 40px;
     box-shadow: 0px 0px 20px rgba(10, 10, 10, .05);
-}
-
-ul li {
-    margin-bottom: 20px;
 }
 
 footer li {

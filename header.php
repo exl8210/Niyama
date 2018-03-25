@@ -87,19 +87,49 @@
 
     </script>
 
+    <div id="mobile-nav">
+        <section id="icon">
+            <div class="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </section>
+
+        <section id="mobile-menu-container">
+            <ul id="mobile-menu">
+                <li><a href="exhibit.php">See our<br />Exhibit</a></li>
+                <li><a href="stories.php">Read real<br />Stories</a></li>
+                <li><a href="information.php">Get more<br />Information</a></li>
+                <li><a href="team.php">Meet the<br />Team</a></li>
+            </ul>
+
+            <div id="social">
+                <a href="http://www.facebook.com/niyama2018/" class="noHover"><i class="fab fa-facebook-f"></i></a>
+
+                <a href="http://www.instagram.com/niyama2018/" class="noHover"><i class="fab fa-instagram"></i></a>
+
+                <a href="http://niyama2018.tumblr.com/" class="noHover"><i class="fab fa-tumblr"></i></a>
+
+                <a href="http://www.twitter.com/niyama2018" class="noHover"><i class="fab fa-twitter"></i></a>
+            </div>
+        </section>
+    </div>
+
     <div class="container">
         <header class="offset-by-one ten columns">
             <a href="index.php"><img src="assets/media/brand/niyama-tagline@2x.png" id="logo" alt="Niyama" /></a>
 
-            <nav class="pre-nav">
-                <ul>
+            <nav>
+                <ul class="pre-nav">
                     <li><a href="exhibit.php" id="navExhibit">See our<br />Exhibit</a></li>
                     <li><a href="stories.php" id="navStories">Read real<br />Stories</a></li>
                     <li><a href="information.php" id="navInfo">Get more<br />Information</a></li>
                     <li><a href="team.php" id="navTeam">Meet the<br />Team</a></li>
                 </ul>
             </nav>
-
         </header>
 
         <div class="u-cf clear"></div>

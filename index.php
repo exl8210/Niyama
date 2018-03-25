@@ -117,7 +117,7 @@
         <div class="remodal blue-theme" data-remodal-id="modal-interrupt" role="dialog" aria-labelledby="interruptTitle" aria-describedby="interruptDesc">
             <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
             <div class="remodal-content">
-                    <h1 id="interruptTitle">Beautiful Interruption</h1>
+                    <h1 id="interruptTitle">Beautiful Interruptions</h1>
                     <div id="interruptDesc">
                         <p>In this delightful talk, Stark explores the overlooked benefits of pushing past our default discomfort when it comes to strangers and embracing those fleeting but profoundly beautiful moments of genuine connection.</p>
                         

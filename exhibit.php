@@ -84,7 +84,7 @@
         <h1>Exhibiting Positivity</h1>
     </div>
 
-    <div class="u-cf large-vert-space"></div>
+    <div class="u-cf small-vert-space"></div>
 
     <div class="row case-section">
         <div class="offset-by-one four columns" id="exhibit-1">
@@ -92,7 +92,7 @@
             <p>Give sad Yolks a little smile, hug, or high five, and see what happens...</p>
         </div>
 
-        <div class="offset-by-one four columns">
+        <div class="offset-by-one four columns" id="exhibit-1-video">
             <!--
             <div style="width: 100%; height: 300px; border: 1px solid #232323">animation: states of yolk happiness (sad yolk -> user interaction -> happy yolk)</div>
             -->
@@ -130,7 +130,7 @@
             <p>Wander around the exhibit and take in the ambience and the environment.</p>
         </div>
 
-        <div class="offset-by-one six columns">
+        <div class="offset-by-one six columns" id="exhibit-3-image">
             <!--
             <div style="width: 100%; height: 300px; border: 1px solid #232323">exhibit (could be a video of lights changing, photo of entryway/exit prompts)</div>
             -->
@@ -179,7 +179,7 @@
     <div class="u-cf clear"></div>
 
     <div class="row">
-        <div class="offset-by-four four columns u-centre" id="exhibit-summary">
+        <div class="offset-by-three six columns u-centre" id="exhibit-summary">
             <h1>Making positive connections</h1>
             <p>At the end of the day, we seek to be memorable and to inspire a ripple effect of positive influence. We can see this experience being extended to other event spaces, and a concept worthy of awards.</p>
 

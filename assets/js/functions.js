@@ -115,7 +115,7 @@ $(document).ready(function () {
         }, 500);
 
         setTimeout(function () {
-            $("nav").removeClass("pre-nav");
+            $("ul").removeClass("pre-nav");
         }, 800);
 
         setTimeout(function () {
@@ -216,7 +216,7 @@ $(document).ready(function () {
                 "background": "#fcfcfc url(\"http://niyama.cias.rit.edu/assets/media/bg-coloured-large.svg\") no-repeat",
                 "background-size": "100%"
             });
-            $("nav").removeClass("pre-nav");
+            $("ul").removeClass("pre-nav");
             $('#navExhibit').addClass("current");
             break;
 
@@ -225,7 +225,7 @@ $(document).ready(function () {
                 "background": "#fcfcfc url(\"http://niyama.cias.rit.edu/assets/media/bg-coloured-small.svg\") no-repeat",
                 "background-size": "100%"
             });
-            $("nav").removeClass("pre-nav");
+            $("ul").removeClass("pre-nav");
             $('#navStories').addClass("current");
             break;
 
@@ -234,7 +234,7 @@ $(document).ready(function () {
                 "background": "#fcfcfc url(\"http://niyama.cias.rit.edu/assets/media/bg-coloured-small.svg\") no-repeat",
                 "background-size": "100%"
             });
-            $("nav").removeClass("pre-nav");
+            $("ul").removeClass("pre-nav");
             $('#navInfo').addClass("current");
             break;
 
@@ -243,13 +243,20 @@ $(document).ready(function () {
                 "background": "#fcfcfc url(\"http://niyama.cias.rit.edu/assets/media/bg-coloured-small.svg\") no-repeat",
                 "background-size": "100%"
             });
-            $("nav").removeClass("pre-nav");
+            $("ul").removeClass("pre-nav");
             $('#navTeam').addClass("current");
             break;
 
         default:
             break;
     }
+
+    /* mobile menu */
+    $(".menu").on("click", function () {
+        $(this).toggleClass("open");
+        $("#mobile-nav").toggleClass("open");
+        $("#mobile-menu-container").toggleClass("open");
+    });
 
 
     /*
