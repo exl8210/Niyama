@@ -5,7 +5,7 @@
         <div class="u-cf large-vert-space"></div>
         <div class="u-cf large-vert-space"></div>
 
-        <div class="offset-by-three six columns" style="text-align: center">
+        <div class="u-full-width" style="text-align: center">
             <h3>Made possible by</h3>
             <div id="sponsors">
                 <a href="http://livethelodge.com/" target="_blank" class="noHover"><img src="assets/media/logos/the-lodge.png" class="big-logo" /></a>

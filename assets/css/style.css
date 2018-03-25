@@ -42,6 +42,7 @@ header {
     padding: 44px 0 80px;
     display: block;
     position: relative;
+    z-index: -1;
 }
 
 footer {
@@ -101,7 +102,7 @@ footer {
     margin: 20px auto 0;
     width: 160px;
     opacity: 1;
-    transition: opacity 0.5s ease;
+    transition: 0.5s ease;
 }
 
 #tapMe.pre-tap {
@@ -195,31 +196,31 @@ footer {
 
 #card-butterfly {
     background: #FF8C64 !important;
-    transition: margin-top ease 0.3s, box-shadow ease 0.3s !important;
+    transition: ease 0.3s !important;
 }
 
 #card-butterfly:hover {
-    margin-top: -20px;
+    transform: translateY(-20px);
     box-shadow: 0px 6px 24px rgba(255, 140, 100, 0.35);
 }
 
 #card-lollipop {
     background: #977BDC !important;
-    transition: margin-top ease 0.3s, box-shadow ease 0.3s !important;
+    transition: ease 0.3s !important;
 }
 
 #card-lollipop:hover {
-    margin-top: -20px;
+    transform: translateY(-20px);
     box-shadow: 0px 6px 24px rgba(151, 123, 220, 0.35);
 }
 
 #card-interrupt {
     background: #5A99F6 !important;
-    transition: margin-top ease 0.3s, box-shadow ease 0.3s !important;
+    transition: ease 0.3s !important;
 }
 
 #card-interrupt:hover {
-    margin-top: -20px;
+    transform: translateY(-20px);
     box-shadow: 0px 6px 24px rgba(90, 153, 246, .35);
 }
 
@@ -263,7 +264,7 @@ nav {
 nav ul {
     opacity: 1;
     margin-top: 10px;
-    transition: opacity 0.5s ease, margin-top 0.5s ease;
+    transition: 0.5s ease;
 }
 
 .pre-nav {
@@ -318,7 +319,7 @@ nav ul li a::after {
     height: 2px;
     margin-top: 5px;
     width: 0;
-    transition: width 0.2s ease, background-color 0.2s ease;
+    transition: 0.2s ease;
 }
 
 nav ul li a:hover::after {
@@ -445,7 +446,7 @@ p {
     color: #F2667A;
     font-size: 24px;
     margin: 0 10px;
-    transition: color 0.2s ease;
+    transition: 0.2s ease;
 }
 
 .share-link:hover {
@@ -455,7 +456,7 @@ p {
 a:link, a:visited, a:active {
     color: #F2667A;
     border-bottom: 1px solid rgba(251, 205, 99, 0);
-    transition: border-bottom 0.3s ease;
+    transition: 0.3s ease;
 }
 
 a:hover {
@@ -473,7 +474,7 @@ a:hover {
     margin-right: 15px;
     margin-bottom: 10px;
     box-shadow: none;
-    transition: background 0.2s ease, color 0.3s ease, box-shadow 0.3s ease !important;
+    transition: 0.3s ease !important;
 }
 
 .button:hover {
@@ -523,13 +524,14 @@ footer li {
     margin-bottom: 5px;
 }
 
-#rit-logos, #sponsors {
+#rit-logos {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-#rit-logos {
-    justify-content: center;
+#sponsors img {
+    margin-bottom: 20px;
 }
 
 .school-logo {
@@ -537,7 +539,7 @@ footer li {
     max-height: 40px;
     margin-right: 25px;
     opacity: .3;
-    transition: opacity 0.3s ease;
+    transition: 0.3s ease;
 }
 
 .school-logo:hover {
