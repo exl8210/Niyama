@@ -60,7 +60,7 @@ footer {
 }
 
 #yolk-intro, #yolk-quote {
-/*    margin-left: 8%;*/
+    margin-left: 8%;
 }
 
 #yolk-quote {
@@ -249,9 +249,8 @@ footer {
 
 /* NAVIGATION */
 #logo {
-    height: 80px;
+    height: 100px;
     position: absolute;
-    z-index: 5;
 }
 
 nav {

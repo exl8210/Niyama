@@ -107,9 +107,75 @@ function removeOffsets(bpOne) {
     }
 }
 
+/* 1100px */
+function respTwo(bpTwo) {
+    if (bpTwo.matches) {
+        $("#mobile-nav").fadeIn();
+    }
+    else {
+        $("#mobile-nav").fadeOut();
+    }
+}
+
+/* 1000px */
+function respThree(bpThree) {
+    if (bpThree.matches) {
+        $("#yolk").removeClass("four").addClass("six offset-by-three");
+        $("#yolk-intro").removeClass("offset-by-one eight").addClass("twelve");
+        $("#yolk-quote").removeClass("offset-by-one eight").addClass("twelve");
+    }
+    else {
+        $("#yolk").removeClass("six offset-by-three").addClass("four");
+        $("#yolk-intro").removeClass("twelve").addClass("offset-by-one eight");
+        $("#yolk-quote").removeClass("twelve").addClass("offset-by-one eight");
+    }
+}
+
+/* 768px */
+function respFour(bpFour) {
+    if (bpFour.matches) {
+
+    }
+    else {
+
+    }
+}
+
+/* 480px */
+function respFive(bpFive) {
+    if (bpFive.matches) {
+        $("#logo").attr('src', 'assets/media/brand/niyama-bottom@2x.png');
+    }
+    else {
+        $("#logo").attr('src', 'assets/media/brand/niyama-tagline@2x.png');
+    }
+}
+
+
+/* Check breakpoints */
 function checkBreakpoints() {
     // check breakpoint 1 (1300px)
-    var bpOne = window.matchMedia("(max-width: 1300px)")
+    var bpOne = window.matchMedia("(max-width: 1300px)");
     removeOffsets(bpOne); // Call listener function at run time
     bpOne.addListener(removeOffsets); // Attach listener function on state changes
+    
+    // check breakpoint 2 (1100px)
+    var bpTwo = window.matchMedia("(max-width: 1100px");
+    respTwo(bpTwo);
+    bpTwo.addListener(respTwo);
+    
+    // check breakpoint 3 (1000px)
+    var bpThree = window.matchMedia("(max-width: 1000px");
+    respThree(bpThree);
+    bpThree.addListener(respThree);
+    
+    // check breakpoint 4 (768px)
+    var bpFour = window.matchMedia("(max-width: 768px");
+    respFour(bpFour);
+    bpFour.addListener(respFour);
+    
+    // check breakpoint 5 (480px)
+    var bpFive = window.matchMedia("(max-width: 480px");
+    respFive(bpFive);
+    bpFive.addListener(respFive);
 }
