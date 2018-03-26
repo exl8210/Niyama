@@ -52,6 +52,8 @@ function removeOffsets(bpOne) {
         $("#team-intro-text").removeClass("offset-by-one four").addClass("six");
         $("#team-group-photo").removeClass("offset-by-one ten").addClass("twelve");
         $("#team-members").removeClass("offset-by-one ten").addClass("twelve");
+        $("#thanks-intro").removeClass("offset-by-one five").addClass("six");
+        $("#thanks-list").removeClass("five").addClass("six");
 
         // FOOTER
         $("#footer-intro").removeClass("offset-by-one");
@@ -101,6 +103,8 @@ function removeOffsets(bpOne) {
         $("#team-intro-text").removeClass("six").addClass("offset-by-one four");
         $("#team-group-photo").removeClass("twelve").addClass("offset-by-one ten");
         $("#team-members").removeClass("twelve").addClass("offset-by-one ten");
+        $("#thanks-intro").removeClass("six").addClass("offset-by-one five");
+        $("#thanks-list").removeClass("six").addClass("five");
 
         // FOOTER
         $("#footer-intro").addClass("offset-by-one");
@@ -206,10 +210,12 @@ function respFour(bpFour) {
 /* 768px */
 function respFive(bpFive) {
     if (bpFive.matches) {
-
+        $("#thanks-intro").removeClass("six").addClass("twelve");
+        $("#thanks-list").removeClass("six").addClass("twelve");
     }
     else {
-
+        $("#thanks-intro").removeClass("twelve").addClass("six");
+        $("#thanks-list").removeClass("twelve").addClass("six");
     }
 }
 

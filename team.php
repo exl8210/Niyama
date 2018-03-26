@@ -148,11 +148,11 @@
     <div class="u-cf clear"></div>
 
     <div class="row" id="thanks">
-        <div class="offset-by-one five columns">
+        <div class="offset-by-one five columns" id="thanks-intro">
             <h1>And a huge thank you to...</h1>
         </div>
 
-        <div class="five columns">
+        <div class="five columns" id="thanks-list">
             <ul id="thank-people">
                 <li>Adam Smith</li>
                 <li>Sten McKinzie</li>

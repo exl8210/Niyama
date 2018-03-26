@@ -552,16 +552,7 @@ footer li {
     margin-right: 40px;
 }
 
-#thanks {
-    display: flex;
-    align-items: center;
-}
-
 ul#thank-people {
-    -moz-column-count: 3;
-    -moz-column-gap: 8.66666666667%;
-    -webkit-column-count: 3;
-    -webkit-column-gap: 8.66666666667%;
     column-count: 3;
     column-gap: 8.66666666667%;
 }
