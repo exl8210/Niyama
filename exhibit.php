@@ -24,10 +24,11 @@
     <div class="row offset-by-two eight columns">
         <div style="width: 100%; height: 500px; border: 1px solid #232323">animated promotional video</div>
     </div>
-    -->
+    
     <div class="u-cf clear"></div>
+    -->
 
-    <div class="row case-section">
+    <div class="row case-section" id="dyk">
         <div class="offset-by-one four columns" id="exhibit-dyk">
             <h2>Did you know?</h2>
             <p>Throughout our lifetime we interact with approximately 80,000 people, but we tend to be unaware of the impact those interactions have on others.</p>
@@ -61,7 +62,7 @@
     <div class="u-cf large-vert-space"></div>
     <div class="u-cf large-vert-space"></div>
 
-    <div class="row case-section">
+    <div class="row case-section" id="mockup">
         <div class="offset-by-one six columns" id="exhibit-mockup">
             <!--
             <div style="width: 100%; height: 400px; border: 1px solid #232323">diagram of the room</div>
@@ -69,7 +70,7 @@
             <img src="assets/media/full-room-mockup.png" style="width: 100%" />
         </div>
 
-        <div class="six columns">
+        <div class="six columns" id="exhibit-holistic">
             <h2>Niyama is a holistic experience.</h2>
             <p>Niyama’s exhibit at ImagineRIT is a fun, engaging, interactive simulation that shows how small gestures can have a great influence in the world.</p>
 
@@ -86,7 +87,7 @@
 
     <div class="u-cf small-vert-space"></div>
 
-    <div class="row case-section">
+    <div class="row case-section" id="interaction-1">
         <div class="offset-by-one four columns" id="exhibit-1">
             <h2>Be positive to a Yolk</h2>
             <p>Give sad Yolks a little smile, hug, or high five, and see what happens...</p>
@@ -105,8 +106,8 @@
 
     <div class="u-cf"></div>
 
-    <div class="row case-section">
-        <div class="offset-by-one four columns" id="exhibit-2">
+    <div class="row case-section" id="interaction-2">
+        <div class="offset-by-one four columns" id="exhibit-2-image">
             <!--
             <div style="width: 100%; height: 300px; border: 1px solid #232323">animation: ripple effect (newly happy yolk -> makes another yolk happy)</div>
             -->
@@ -116,7 +117,7 @@
             </video>
         </div>
 
-        <div class="offset-by-two four columns">
+        <div class="offset-by-two four columns" id="exhibit-2">
             <h2>Watch it spread happiness</h2>
             <p>Your little gesture is passed on to other Yolks in the environment!</p>
         </div>
@@ -124,7 +125,7 @@
 
     <div class="u-cf clear"></div>
 
-    <div class="row case-section">
+    <div class="row case-section" id="exhibition">
         <div class="offset-by-one four columns" id="exhibit-3">
             <h2>Take a moment to reflect</h2>
             <p>Wander around the exhibit and take in the ambience and the environment.</p>
@@ -140,28 +141,28 @@
 
     <div class="u-cf clear"></div>
 
-    <div class="row case-section">
-        <div class="seven columns">
+    <div class="row case-section" id="products">
+        <div class="seven columns" id="exhibit-4-image">
             <!--
             <div style="width: 100%; height: 300px; border: 1px solid #232323">photo: tangible (product shots)</div>
             -->
             <img src="assets/media/product-sketches.jpg" style="width: 100%" />
         </div>
 
-        <div class="four columns">
-            <h2>Interact with Yolks<br />beyond the exhibit</h2>
+        <div class="four columns" id="exhibit-4">
+            <h2>Interact with Yolks beyond the exhibit</h2>
             <p>Take your virtual positivity into the real world with our line of products.</p>
         </div>
     </div>
 
     <div class="u-cf clear"></div>
 
-    <div class="row case-section">
+    <div class="row case-section" id="takeaway">
         <div class="offset-by-one four columns" id="exhibit-exit-prompt">
             <h1>How will you spread happiness today?</h1>
         </div>
 
-        <div class="offset-by-one six columns">
+        <div class="offset-by-one six columns" id="exhibit-exit-image">
             <!--
             <div style="width: 100%; height: 300px; border: 1px solid #232323">product shot of takeaways</div>
             -->

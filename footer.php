@@ -15,41 +15,42 @@
         </div>
 
         <div class="u-cf"></div>
-        
+
         <div class="offset-by-five two columns">
             <div class="u-cf small-vert-space"></div>
             <hr />
             <div class="u-cf small-vert-space"></div>
         </div>
-        
+
         <div class="u-cf"></div>
 
-        <div class="offset-by-one eight columns" id="footer-intro">
-            <h1>Negativity spreads fast.<br />
+        <div id="footer-main-content">
+            <div class="offset-by-one eight columns" id="footer-intro">
+                <h1>Negativity spreads fast.<br />
                 Help spread positivity faster.</h1> <span class="attr">Copyright &copy; 2018. Niyama &hearts;</span>
+            </div>
 
+            <div class="three columns" id="footer-nav">
+                <ul>
+                    <li><a href="exhibit.php">See Our Exhibit</a></li>
+                    <li><a href="exhibit.php">Read Real Stories</a></li>
+                    <li><a href="information.php">Get More Information</a></li>
+                    <li><a href="team.php">Meet The Team</a></li>
+                </ul>
+
+                <br />
+
+                <a href="http://www.facebook.com/niyama2018/" class="noHover"><img class="social" src="assets/media/icons/fb@2x.png" /></a>
+
+                <a href="http://www.instagram.com/niyama2018/" class="noHover"><img class="social" src="assets/media/icons/ig@2x.png" /></a>
+
+                <a href="http://niyama2018.tumblr.com/" class="noHover"><img class="social" src="assets/media/icons/tumblr@2x.png" /></a>
+
+                <a href="http://www.twitter.com/niyama2018" class="noHover"><img class="social" src="assets/media/icons/twitter@2x.png" /></a>
+            </div>
         </div>
 
-        <div class="three columns">
-            <ul>
-                <li><a href="exhibit.php">See Our Exhibit</a></li>
-                <li><a href="exhibit.php">Read Real Stories</a></li>
-                <li><a href="information.php">Get More Information</a></li>
-                <li><a href="team.php">Meet The Team</a></li>
-            </ul>
-
-            <br />
-
-            <a href="http://www.facebook.com/niyama2018/" class="noHover"><img class="social" src="assets/media/icons/fb@2x.png" /></a>
-
-            <a href="http://www.instagram.com/niyama2018/" class="noHover"><img class="social" src="assets/media/icons/ig@2x.png" /></a>
-
-            <a href="http://niyama2018.tumblr.com/" class="noHover"><img class="social" src="assets/media/icons/tumblr@2x.png" /></a>
-
-            <a href="http://www.twitter.com/niyama2018" class="noHover"><img class="social" src="assets/media/icons/twitter@2x.png" /></a>
-        </div>
-
-        <div class="u-cf clear"></div>
+        <div class="u-cf large-vert-space"></div>
 
         <div id="rit-logos">
             <a href="https://www.rit.edu" target="_blank" class="noHover"><img src="assets/media/logos/rit.gif" class="school-logo" style="width: 60px" /></a>
@@ -95,7 +96,11 @@
         modifier: 'blue-theme'
     });
 
-    $("#tapMe").arctext({radius: 200, dir: -1});
+    $("#tapMe").arctext({
+        radius: 200,
+        dir: -1
+    });
+
 </script>
 </body>
 
