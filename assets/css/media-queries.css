@@ -84,6 +84,16 @@
         min-width: 100%;
         height: 260px;
     }
+    #init-yolk,
+    #end-yolk img {
+        max-height: 32vw;
+    }
+    #happy-yolk {
+        max-height: 26vw !important;
+    }
+    #alright-yolk {
+        max-height: 30vw !important;
+    }
 }
 @media screen and (max-width: 480px) {
     section#icon {
@@ -194,6 +204,8 @@ section#icon {
     opacity: 0;
     transition: 0.3s ease;
     display: none;
+    z-index: 5;
+    pointer-events: auto;
 }
 .open#mobile-menu-container {
     opacity: 1;
