@@ -148,7 +148,7 @@
                 <div class="side-desc">
                     <h3>How to Win Friends and Influence People</h3>
                     <p><strong>Dale Carnegie</strong>
-                        <br />Headspace is a digital service that provides guided meditation sessions and mindfulness training. Its content can be accessed online, or via their mobile apps.</p>
+                        <br />This volume features the three most important works by Dale Carnegie, the books that made him a household name worldwide, and one of the most influential people of the 20th century.</p>
                 </div>
             </div>
 
@@ -187,21 +187,20 @@
 
             <ul>
                 <li><a href="https://www.randomactsofkindness.org/rak-week" target="_blank"><strong>#RAKWEEK2018</strong> – Random Acts of Kindness</a></li>
-                <li><a href="https://www.psychologytoday.com/blog/cutting-edge-leadership/201206/there-s-magic-in-your-smile" target="_blank"><strong>There's Magic In Your Smile</strong> – Ronald E. Riggio Ph.D. (Psychology Today)</a>
+                <li><a href="https://www.psychologytoday.com/blog/cutting-edge-leadership/201206/there-s-magic-in-your-smile" target="_blank"><strong>There's Magic In Your Smile</strong> – Ronald E. Riggio Ph.D. (Psychology Today)</a></li>
+                <li><a href="https://www.cbsnews.com/news/proving-the-butterfly-effect-with-a-single-act-of-kindness/" target="_blank"><strong>Proving the butterfly effect with a single act of kindness</strong> – Steve Hartman (CNN)</a></li>
+                <li><a href="https://www.facebook.com/malottinc/videos/1900499043308560/" target="_blank"><strong>You could smoke for years and nothing would ever happen to you.</strong> – Mohammed Qahtani (Goalcast)</a></li>
+                <li><a href="https://medium.com/@jaylin/how-many-people-do-you-think-you-interact-with-on-your-average-day-d15bed024f6c" target="_blank"><strong>How many people do you think you interact with on your average day?</strong> – Jessica Lin (Medium)</a></li>
+                <li><a href="https://blog.adioma.com/counting-the-people-you-impact-infographic/" target="_blank"><strong>Why We Live – Counting The People Your Life Impacts</strong> – Anna Vital (Adioma)</a></li>
+                <li><a href="https://carolynsonlinemagazine.wordpress.com/2015/11/03/how-many-people-will-you-interact-with-in-your-lifetime/" target="_blank"><strong>How Many People Will You Interact With in Your Lifetime?</strong> – Carolyn (Carolyn's Online Magazine)</a></li>
+                <li><a href="https://www.psychologytoday.com/blog/ulterior-motives/201407/why-other-people-are-the-key-our-happiness" target="_blank"><strong>Why Other People Are The Key to Our Happiness</strong> – Art Markman Ph.D. (Psychology Today)</a></li>
+                <li><a href="http://www.sociologyencyclopedia.com/fragr_image/media/social" target="_blank"><strong>Social Influence</strong> – Lisa Rashotte (Professor of Sociology, UNC Charlotte)</a></li>
+                <li><a href="https://positivepsychologyprogram.com/random-acts-kindness/" target="_blank"><strong>Random Acts of Kindness: An Excercise for Increasing Wellbeing</strong> – Seph Pennock (Positive Psychology Program)</a></li>
+                <li><a href="http://baypsych.com.au/random-acts-kindness/" target="_blank"><strong>Random Acts of Kindness</strong> – Baypsych Consultants</a></li>
+                <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1820947/" target="_blank"><strong>Happy people become happier through kindness: A counting kindnesses intervention</strong> – Otake, Shimai, Matsumi and Otsui, Fredrickson (US National Library of Medicine, National Institutes of Health)</a></li>
+                <li><a href="https://snowfly.nl/en/behaviour-data-contagion-spread-love/" target="_blank"><strong>Big behaviour data says: spread the love</strong> – Egon de Bruin (Snowfly.nl)</a></li>
+                <li><a href="https://www.boboandchichi.com/2016/08/17-stories-about-random-acts-of-kindness-from-all-over-the-world/" target="_blank"><strong>17 Stories about Random Acts of Kindness from All Over the World</strong> – Bobo &amp; Chi Chi</a>
                 </li>
-                <li><a href="https://www.cbsnews.com/news/proving-the-butterfly-effect-with-a-single-act-of-kindness/" target="_blank"><strong>Proving the butterfly effect with a single act of kindness</strong> – Steve Hartman (CNN)</a>
-                    <li><a href="https://www.facebook.com/malottinc/videos/1900499043308560/" target="_blank"><strong>You could smoke for years and nothing would ever happen to you.</strong> – Mohammed Qahtani (Goalcast)</a>
-                        <li><a href="https://medium.com/@jaylin/how-many-people-do-you-think-you-interact-with-on-your-average-day-d15bed024f6c" target="_blank"><strong>How many people do you think you interact with on your average day?</strong> – Jessica Lin (Medium)</a>
-                            <li><a href="https://blog.adioma.com/counting-the-people-you-impact-infographic/" target="_blank"><strong>Why We Live – Counting The People Your Life Impacts</strong> – Anna Vital (Adioma)</a>
-                                <li><a href="https://carolynsonlinemagazine.wordpress.com/2015/11/03/how-many-people-will-you-interact-with-in-your-lifetime/" target="_blank"><strong>How Many People Will You Interact With in Your Lifetime?</strong> – Carolyn (Carolyn's Online Magazine)</a>
-                                    <li><a href="https://www.psychologytoday.com/blog/ulterior-motives/201407/why-other-people-are-the-key-our-happiness" target="_blank"><strong>Why Other People Are The Key to Our Happiness</strong> – Art Markman Ph.D. (Psychology Today)</a>
-                                        <li><a href="http://www.sociologyencyclopedia.com/fragr_image/media/social" target="_blank"><strong>Social Influence</strong> – Lisa Rashotte (Professor of Sociology, UNC Charlotte)</a>
-                                            <li><a href="https://positivepsychologyprogram.com/random-acts-kindness/" target="_blank"><strong>Random Acts of Kindness: An Excercise for Increasing Wellbeing</strong> – Seph Pennock (Positive Psychology Program)</a>
-                                                <li><a href="http://baypsych.com.au/random-acts-kindness/" target="_blank"><strong>Random Acts of Kindness</strong> – Baypsych Consultants</a>
-                                                    <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1820947/" target="_blank"><strong>Happy people become happier through kindness: A counting kindnesses intervention</strong> – Otake, Shimai, Matsumi and Otsui, Fredrickson (US National Library of Medicine, National Institutes of Health)</a>
-                                                        <li><a href="https://snowfly.nl/en/behaviour-data-contagion-spread-love/" target="_blank"><strong>Big behaviour data says: spread the love</strong> – Egon de Bruin (Snowfly.nl)</a>
-                                                            <li><a href="https://www.boboandchichi.com/2016/08/17-stories-about-random-acts-of-kindness-from-all-over-the-world/" target="_blank"><strong>17 Stories about Random Acts of Kindness from All Over the World</strong> – Bobo &amp; Chi Chi</a>
-                                                            </li>
             </ul>
         </div>
     </div>

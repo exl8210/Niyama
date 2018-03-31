@@ -6,7 +6,7 @@
             <img id="init-yolk" src="assets/media/yolks/wave.svg" />
 
             <a id="end-yolk"><!--<img src="assets/media/yolks/L-happy.svg" />--></a>
-            
+
             <a id="tapMe" class="pre-tap noHover">Give me a poke!</a>
         </div>
 
@@ -87,15 +87,21 @@
                 <h1 id="butterflyTitle">A Butterfly Effect</h1>
                 <div id="butterflyDesc">
                     <p>The butterfly effect is this idea that a single butterfly flapping its wings on one side of the globe can, in theory, start a hurricane on the other.
-                        
+
+                    <blockquote>You have been created in order that you might make a difference. You have within you the power to change the world.</blockquote>
+
+                        <br />
+
+                        <a href="https://www.cbsnews.com/news/proving-the-butterfly-effect-with-a-single-act-of-kindness/" target="_blank">Proving the Butterfly Effect with a Single Act of Kindness</a>.</p>
+
                     <br />
-                        
-                    <a href="https://www.cbsnews.com/news/proving-the-butterfly-effect-with-a-single-act-of-kindness/" target="_blank">Proving the Butterfly Effect with a Single Act of Kindness</a>.</p>
-                    
-                    <br />
-                    
-                    <div style="max-width:854px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" src="https://www.youtube.com/embed/mo6fBAT8f-s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div></div>
-                    
+
+                    <div style="max-width:854px">
+                        <div style="position:relative;height:0;padding-bottom:56.25%">
+                            <iframe width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" src="https://www.youtube.com/embed/mo6fBAT8f-s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -107,9 +113,15 @@
                 <div id="lollipopDesc">
                     <p>A lollipop moment is a concept explained in Drew Dudley’s TED talk about everyday leadership. He explains how something as simple as giving someone a lollipop can have a huge influence on their life without you even knowing.</p>
 
+                    <blockquote>If you change one person's understanding of it, understanding of what they're capable of, understanding of how much people care about them, understanding of how powerful an agent for change they can be in this world, you've changed the whole thing.</blockquote>
+
                     <br />
-                    
-                    <div style="max-width:854px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/drew_dudley_everyday_leadership" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+
+                    <div style="max-width:854px">
+                        <div style="position:relative;height:0;padding-bottom:56.25%">
+                            <iframe src="https://embed.ted.com/talks/drew_dudley_everyday_leadership" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -117,14 +129,20 @@
         <div class="remodal blue-theme" data-remodal-id="modal-interrupt" role="dialog" aria-labelledby="interruptTitle" aria-describedby="interruptDesc">
             <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
             <div class="remodal-content">
-                    <h1 id="interruptTitle">Beautiful Interruptions</h1>
-                    <div id="interruptDesc">
-                        <p>In this delightful talk, Stark explores the overlooked benefits of pushing past our default discomfort when it comes to strangers and embracing those fleeting but profoundly beautiful moments of genuine connection.</p>
-                        
-                        <br />
-                        
-                        <div style="max-width:854px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/kio_stark_why_you_should_talk_to_strangers" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+                <h1 id="interruptTitle">Beautiful Interruptions</h1>
+                <div id="interruptDesc">
+                    <p>In this delightful talk, Stark explores the overlooked benefits of pushing past our default discomfort when it comes to strangers and embracing those fleeting but profoundly beautiful moments of genuine connection.</p>
+
+                    <blockquote>When you talk to strangers, you're making beautiful interruptions into the expected narrative of your daily life and theirs.</blockquote>
+
+                    <br />
+
+                    <div style="max-width:854px">
+                        <div style="position:relative;height:0;padding-bottom:56.25%">
+                            <iframe src="https://embed.ted.com/talks/kio_stark_why_you_should_talk_to_strangers" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                        </div>
                     </div>
+                </div>
             </div>
         </div>
 

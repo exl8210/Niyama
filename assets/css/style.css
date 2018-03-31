@@ -252,6 +252,8 @@ footer {
 #logo {
     height: 100px;
     position: absolute;
+    z-index: 3;
+    pointer-events: auto;
 }
 
 nav {
