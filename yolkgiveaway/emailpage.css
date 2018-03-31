@@ -1,0 +1,123 @@
+body {
+	width: 100%;
+	margin: 0%;
+}
+
+.main {
+	background-image: url("emailentry-01.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.confirm {
+	background-image: url("emailentry-03.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 100% 25%;
+}
+
+.terms {
+	background-image: url("emailentry-02.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+}
+
+.bottom {
+	margin-top: 200px;
+	text-align: center;
+}
+
+form {
+	margin-left: 30%;
+}
+
+.box {
+	margin-left: 10%;
+}
+
+.box2 {
+	margin-top: 42%;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+
+h1 {
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 36px; 
+	color: #ff8c64;
+}
+
+h2 {
+	font-family: 'Karla Bold', sans-serif;
+	font-size: 24px;
+	color: #ff8c64;
+	width: 75%;
+}
+
+p {
+	font-family: 'Karla', sans-serif;
+	font-size: 24px;
+	color: #ff8c64;
+	width: 60%;
+}
+
+#specialtext {
+	margin-left: 20%;
+}
+
+::placeholder {
+	color: #5A99fe;
+}
+
+button {
+
+	display: inline-block;
+	border-radius: 30px;
+	border: 1px solid #F2667A;
+	background: #FFFFFF;
+	color: #F2667A;
+	padding: 16px 24px;
+	cursor: pointer;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	box-shadow: none;
+	transition: background 0.2s ease, color 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+#specialbutton {
+	margin-left: 397px;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Karla', sans-serif;
+	
+	color: #F2667A;
+}
+
+a:hover {
+	color: #5A99fe;
+}
+
+button:hover {
+	background: linear-gradient(to right, #F2667A, #FF8C64);
+	color: #FFFFFF;
+}
+
+input {
+
+	display: inline-block;
+	border-radius: 30px;
+	border: 1px solid #5A99fe;
+	background: #FFFFFF;
+	color: #5a99fe;
+	padding: 16px 24px;
+	cursor: pointer;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	box-shadow: none;
+	transition: background 0.2s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
