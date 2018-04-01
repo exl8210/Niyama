@@ -1,47 +1,53 @@
 body {
-	width: 100%;
-	margin: 0%;
+    width: 100%;
+    margin: 0%;
+    display: inline;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
 }
-
 .main {
-	background-image: url("emailentry-01.png");
-	background-repeat: no-repeat;
-	background-size: 100%;
+    background-image: url("emailentry-01.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
-
+.main main {
+    width: 55%;
+    margin: 120px 0 0 auto;
+}
+.terms main {
+    width: 70%;
+    margin-top: 120px;
+    margin-left: 10%;
+}
+.confirm main {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
 .confirm {
-	background-image: url("emailentry-03.png");
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: 100% 25%;
+    background-image: url("emailentry-03.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100% 25%;
 }
-
 .terms {
-	background-image: url("emailentry-02.png");
-	background-repeat: no-repeat;
-	background-size: 100%;
-	
+    background-image: url("emailentry-02.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
-
 .bottom {
-	margin-top: 200px;
-	text-align: center;
+    margin-top: 30px;
 }
-
-form {
-	margin-left: 30%;
-}
-
-.box {
-	margin-left: 10%;
-}
-
 .box2 {
-	margin-top: 42%;
-	text-align: center;
-	margin-bottom: 5%;
+    margin-top: 60%;
+}
+.box2 p {
+    width: 80%;
+    margin: 0 auto;
 }
 
+/*
 
 h1 {
 	font-family: 'Comfortaa', sans-serif;
@@ -55,21 +61,25 @@ h2 {
 	color: #ff8c64;
 	width: 75%;
 }
+*/
 
 p {
-	font-family: 'Karla', sans-serif;
-	font-size: 24px;
-	color: #ff8c64;
-	width: 60%;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ff8c64;
+    width: 70%;
 }
-
+/*
 #specialtext {
-	margin-left: 20%;
+    margin-left: 20%;
+}
+*/
+::placeholder {
+    color: #5A99fe;
 }
 
-::placeholder {
-	color: #5A99fe;
-}
+/*
 
 button {
 
@@ -86,38 +96,45 @@ button {
 	transition: background 0.2s ease, color 0.3s ease, box-shadow 0.3s ease;
 
 }
+*/
 
-#specialbutton {
-	margin-left: 397px;
+button {
+    font-family: Karla, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    background: rgba(255, 255, 255, 0.5);
 }
-
 a {
-	text-decoration: none;
-	font-family: 'Karla', sans-serif;
-	
-	color: #F2667A;
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+    color: #F2667A;
+}
+a:hover {
+    color: #5A99fe;
 }
 
-a:hover {
-	color: #5A99fe;
-}
+/*
 
 button:hover {
 	background: linear-gradient(to right, #F2667A, #FF8C64);
 	color: #FFFFFF;
 }
+*/
 
 input {
-
-	display: inline-block;
-	border-radius: 30px;
-	border: 1px solid #5A99fe;
-	background: #FFFFFF;
-	color: #5a99fe;
-	padding: 16px 24px;
-	cursor: pointer;
-	margin-right: 15px;
-	margin-bottom: 10px;
-	box-shadow: none;
-	transition: background 0.2s ease, color 0.3s ease, box-shadow 0.3s ease;
+    font-family: Karla, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    display: inline-block;
+    border-radius: 30px;
+    border: 1px solid #5A99fe;
+    background: rgba(255, 255, 255, 0.5);
+    color: #5a99fe;
+    padding: 16px 24px;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    box-shadow: none;
+    cursor: text;
+    width: 60%;
 }
