@@ -74,6 +74,7 @@ footer {
 
 #init-yolk, #end-yolk img {
     max-height: 20vw;
+    transition: 0.3s ease;
 }
 
 #end-yolk {
@@ -394,10 +395,16 @@ blockquote {
     color: #888;
 }
 
+#quoteAttr::first-letter {
+    color: #ddd;
+}
+/*
+
 #quoteAttr::before {
     content: "— ";
     color: #ddd;
 }
+*/
 
 h1 {
     color: #ff8c64;
