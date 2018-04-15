@@ -196,26 +196,26 @@ function respThree(bpThree) {
 /* 900px */
 function respFour(bpFour) {
     if (bpFour.matches) {
-        $("#exhibit-statement").removeClass("offset-by-two eight").addClass("twelve");
+        $("#exhibit-statement").removeClass("offset-by-three six").addClass("twelve");
         
-        $("#exhibit-summary").removeClass("offset-by-two eight").addClass("twelve");
+        $("#exhibit-summary").removeClass("offset-by-three six").addClass("twelve");
     }
     else {
-        $("#exhibit-statement").removeClass("twelve").addClass("offset-by-two eight");
+        $("#exhibit-statement").removeClass("twelve").addClass("offset-by-three six");
         
-        $("#exhibit-summary").removeClass("twelve").addClass("offset-by-two eight");
+        $("#exhibit-summary").removeClass("twelve").addClass("offset-by-three six");
     }
 }
 
 /* 768px */
 function respFive(bpFive) {
     if (bpFive.matches) {
-        $("#thanks-intro").removeClass("six").addClass("twelve");
-        $("#thanks-list").removeClass("six").addClass("twelve");
+        $("#thanks-intro").removeClass("five").addClass("twelve");
+        $("#thanks-list").removeClass("five").addClass("twelve");
     }
     else {
-        $("#thanks-intro").removeClass("twelve").addClass("six");
-        $("#thanks-list").removeClass("twelve").addClass("six");
+        $("#thanks-intro").removeClass("twelve").addClass("five");
+        $("#thanks-list").removeClass("twelve").addClass("five");
     }
 }
 

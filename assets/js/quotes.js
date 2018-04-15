@@ -38,6 +38,7 @@ var happyQuoteArr = [
     ["Love yourself first, and everything else falls in line.", "– Lucille Ball"],
     ["An empty lantern provides no light. Self-care is the fuel that allows your light to shine brightly.", ""],
     ["Lighthouses don't go running all over an island looking for boats to save; they just stand there shining.", "– Anne Lamott"],
+    ["Your thoughts and attitudes today chart your destiny tomorrow, and the day after that, and the day after that.", "– Barbara Bradley Hagerty"],
 ];
 
 var sadQuoteArr = [
@@ -85,6 +86,7 @@ var sadQuoteArr = [
     ["Life should be touched, not strangled. You've got to relax, let it happen at times, and at others move forward with it.", "– Ray Bradbury"],
     ["Love yourself first, and everything else falls in line.", "– Lucille Ball"],
     ["An empty lantern provides no light. Self-care is the fuel that allows your light to shine brightly.", ""],
+    ["Your thoughts and attitudes today chart your destiny tomorrow, and the day after that, and the day after that.", "– Barbara Bradley Hagerty"],
 ];
 
 //console.dir(happyQuoteArr);
