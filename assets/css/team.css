@@ -17,22 +17,37 @@
 }
 */
 
+#team-group-photo {
+    height: 50vw;
+    background-image: url(../media/team/Team.jpg);
+    background-size: cover;
+    background-position: right;
+    transition: all 0.3s ease;
+    cursor: crosshair;
+}
+
+#team-group-photo:hover {
+    background-image: url(../media/team/Team-funny.jpg);
+    background-position: center;
+}
+
 .member {
     width: 240px;
-    height: 480px;
+    height: 640px;
     margin: 0 20px;
 }
 
 .yolk-folk {
     max-width: 100%;
-    height: 240px;
+    height: 360px;
     overflow: none;
     background: #eee;
     background-size: cover;
+    box-shadow: 0px 0px 40px rgba(90, 153, 246, 0.1);
 }
 
 .ethelia {
-    background-image: url(../media/team/ethelia.jpg);
+    background-image: url(../media/team/Ethelia.jpg);
 }
 /*
 .ethelia:hover {
@@ -41,7 +56,7 @@
 */
 
 .sara {
-    background-image: url(../media/team/sara.jpg);
+    background-image: url(../media/team/Sara.jpg);
     background-position: center;
 }
 /*
@@ -51,7 +66,7 @@
 */
 
 .alexis {
-    background-image: url(../media/team/alexis.jpg);
+    background-image: url(../media/team/Alexis.jpg);
     background-position: center;
 }
 /*
@@ -61,7 +76,7 @@
 */
 
 .matt {
-    background-image: url(../media/team/matt.jpg);
+    background-image: url(../media/team/Matt.jpg);
 }
 /*
 .matt:hover {
@@ -70,7 +85,7 @@
 */
 
 .jialing {
-    background-image: url(../media/team/jialing.jpg);
+    background-image: url(../media/team/Jialing.jpg);
 }
 /*
 .jialing:hover {
@@ -79,7 +94,7 @@
 */
 
 .ashley {
-    background-image: url(../media/team/ashley.jpg);
+    background-image: url(../media/team/Ashley.png);
 }
 /*
 .ashley:hover {
@@ -88,7 +103,7 @@
 */
 
 .natalie {
-    background-image: url(../media/team/natalie.jpg);
+    background-image: url(../media/team/Natalie.jpg);
     background-position: bottom center;
 }
 /*
@@ -98,7 +113,7 @@
 */
 
 .morgan {
-    background-image: url(../media/team/morgan.jpg);
+    background-image: url(../media/team/Morgan.jpg);
     background-position: center;
 }
 /*
@@ -108,7 +123,7 @@
 */
 
 .celina {
-    background-image: url(../media/team/celina.jpg);
+    background-image: url(../media/team/Celina.png);
 }
 /*
 .celina:hover {

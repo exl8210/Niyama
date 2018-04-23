@@ -5,6 +5,7 @@
         <div class="offset-by-one four columns" id="team-intro-text">
             <h1>The Yolk Folk</h1>
             <p>We are a team of 7 designers and 2 developers, eager to make a positive impact.</p>
+            <p>Photography by the amazing <a href="https://www.instagram.com/cmdumlao" target="_blank">Chris Dumlao</a>!</p>
         </div>
     </div>
 
@@ -14,7 +15,7 @@
         <!--
         <div style="width: 100%; height: 636px; border: 1px solid #232323">team photo</div>
         -->
-        <img src="assets/media/team/team-photo-temp.jpg" style="width: 100%" />
+<!--        <img src="assets/media/team/team-photo-temp.jpg" style="width: 100%" />-->
     </div>
 
     <div class="u-cf clear"></div>
@@ -86,7 +87,7 @@
                 <h2>Jialing Chen</h2>
                 <h3>Designer</h3>
 
-                <p>Chic shoe fanatic</p>
+                <p>Pragmatic daydreamer</p>
 
                 <p><a href="http://jialingchen.me/" target="_blank">jialingchen.me</a></p>
             </div>
