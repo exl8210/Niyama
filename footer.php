@@ -102,6 +102,43 @@
     });
 
 </script>
+
+<div class="hidden">
+	<script type="text/javascript">
+		<!--//--><![CDATA[//><!--
+			var images = new Array()
+			function preload() {
+				for (i = 0; i < preload.arguments.length; i++) {
+					images[i] = new Image()
+					images[i].src = preload.arguments[i]
+				}
+			}
+			preload(
+				"media/team/Team.jpg",
+				"media/team/Team-funny.jpg",
+				"media/team/Ethelia.jpg",
+				"media/team/Ethelia-colour.jpg",
+				"media/team/Sara.jpg",
+				"media/team/Sara-colour.jpg",
+				"media/team/Alexis.jpg",
+				"media/team/Alexis-colour.jpg",
+				"media/team/Matt.jpg",
+				"media/team/Matt-colour.jpg",
+				"media/team/Jialing.jpg",
+				"media/team/Jialing-colour.JPG",
+//				"media/team/Ashley.jpg",
+//				"media/team/Ashley-colour.jpg",
+				"media/team/Natalie.jpg",
+				"media/team/Natalie-colour.jpg",
+				"media/team/Morgan.jpg",
+				"media/team/Morgan-colour.jpg",
+				"media/team/Celina.jpg",
+				"media/team/Celina-colour.jpg"
+			)
+		//--><!]]>
+	</script>
+</div>
+
 </body>
 
 </html>

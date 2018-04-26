@@ -89,7 +89,7 @@
 
                 <p>Pragmatic daydreamer</p>
 
-                <p><a href="http://jialingchen.me/" target="_blank">jialingchen.me</a></p>
+                <p><a href="http://jialingchen.myportfolio.com/" target="_blank">jialingchen.myportfolio.com</a></p>
             </div>
 
             <div class="member">

@@ -1,3 +1,9 @@
+.hidden {
+    visibility: none;
+    position: absolute;
+    bottom: -99999999px;
+}
+
 /* TEAM */
 
 #team-members {
@@ -48,54 +54,54 @@
 
 .ethelia {
     background-image: url(../media/team/Ethelia.jpg);
+    transition: all 0.3s ease;
 }
-/*
+
 .ethelia:hover {
-    background-image: url(../media/team/ethelia-hover.jpg);
+    background-image: url(../media/team/Ethelia-colour.jpg);
 }
-*/
 
 .sara {
     background-image: url(../media/team/Sara.jpg);
-    background-position: center;
+    transition: all 0.3s ease;
 }
-/*
+
 .sara:hover {
-    background-image: url(../media/team/sara-hover.jpg);
+    background-image: url(../media/team/Sara-colour.jpg);
 }
-*/
 
 .alexis {
     background-image: url(../media/team/Alexis.jpg);
-    background-position: center;
+    transition: all 0.3s ease;
 }
-/*
+
 .alexis:hover {
-    background-image: url(../media/team/alexis-hover.jpg);
+    background-image: url(../media/team/Alexis-colour.jpg);
 }
-*/
 
 .matt {
     background-image: url(../media/team/Matt.jpg);
+    transition: all 0.3s ease;
 }
-/*
+
 .matt:hover {
-    background-image: url(../media/team/matt-hover.jpg);
+    background-image: url(../media/team/Matt-colour.jpg);
 }
-*/
 
 .jialing {
     background-image: url(../media/team/Jialing.jpg);
+    transition: all 0.3s ease;
 }
-/*
+
 .jialing:hover {
-    background-image: url(../media/team/jialing-hover.jpg);
+    background-image: url(../media/team/Jialing-colour.JPG);
 }
-*/
 
 .ashley {
     background-image: url(../media/team/Ashley.png);
+    transition: all 0.3s ease;
 }
+
 /*
 .ashley:hover {
     background-image: url(../media/team/ashley-hover.jpg);
@@ -104,29 +110,27 @@
 
 .natalie {
     background-image: url(../media/team/Natalie.jpg);
-    background-position: bottom center;
+    transition: all 0.3s ease;
 }
-/*
+
 .natalie:hover {
-    background-image: url(../media/team/natalie-hover.jpg);
+    background-image: url(../media/team/Natalie-colour.jpg);
 }
-*/
 
 .morgan {
     background-image: url(../media/team/Morgan.jpg);
-    background-position: center;
+    transition: all 0.3s ease;
 }
-/*
+
 .morgan:hover {
-    background-image: url(../media/team/morgan-hover.jpg);
+    background-image: url(../media/team/Morgan-colour.jpg);
 }
-*/
 
 .celina {
     background-image: url(../media/team/Celina.png);
+    transition: all 0.3s ease;
 }
-/*
+
 .celina:hover {
-    background-image: url(../media/team/celina-hover.jpg);
+    background-image: url(../media/team/Celina-colour.jpg);
 }
-*/
